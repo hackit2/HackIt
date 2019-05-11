@@ -1,0 +1,222 @@
+{
+	"N1": {
+		"F": 2,
+		"Description": "Decision",
+		"Targets": [
+			"N2",
+			"N3"
+		]
+	},
+	"N2": {
+		"F": 1,
+		"Description": "Decision",
+		"Targets": [
+			"N8",
+			"N9",
+			"N4"
+		]
+	},
+	"N3": {
+		"F": 1,
+		"Description": "Decision",
+		"Targets": [
+			"N5",
+			"N14",
+			"N6"
+		]
+	},
+	"N4": {
+		"F": 0,
+		"Description": "Decision",
+		"Targets": [
+			"N10",
+			"N11"
+		]
+	},
+	"N5": {
+		"F": 2,
+		"Description": "Decision",
+		"Targets": [
+			"N9",
+			"N15"
+		]
+	},
+	"N6": {
+		"F": 3,
+		"Description": "Decision",
+		"Targets": [
+			"N15",
+			"N17"
+		]
+	},
+	"N7": {
+		"F": 5,
+		"Description": "Decision",
+		"Targets": [
+			"N12",
+			"N13"
+		]
+	},
+	"N8": {
+		"F": 1,
+		"Description": "Action",
+		"Targets": [
+			"N10",
+			"N14"
+		]
+	},
+	"N9": {
+		"F": -4,
+		"Description": "Action",
+		"Targets": [
+			"N12"
+		]
+	},
+	"N10": {
+		"F": 2,
+		"Description": "Action",
+		"Targets": [
+			"N11",
+			"N5"
+		]
+	},
+	"N11": {
+		"F": 2,
+		"Description": "Action",
+		"Targets": [
+			"N12"
+		]
+	},
+	"N12": {
+		"F": -1,
+		"Description": "Action",
+		"Targets": [
+			"IVREND"
+		]
+	},
+	"N13": {
+		"F": 6,
+		"Description": "Action",
+		"Targets": [
+			"N12"
+		]
+	},
+	"N14": {
+		"F": 1,
+		"Description": "Action",
+		"Targets": [
+			"N7"
+		]
+	},
+	"N15": {
+		"F": 4,
+		"Description": "Action",
+		"Targets": [
+			"N16"
+		]
+	},
+	"N16": {
+		"F": 1,
+		"Description": "Action",
+		"Targets": [
+			"N17"
+		]
+	},
+	"N17": {
+		"F": 2,
+		"Description": "Action",
+		"Targets": [
+			"N7"
+		]
+	},
+	"IVREND": {
+		"F": 0,
+		"Description": "Action",
+		"Targets": [
+			"CLE"
+		]
+	},
+	"CLE": {
+		"F": 0,
+		"Description": "Decision",
+		"Targets": [
+			"A1",
+			"A2",
+			"A3",
+			"A4",
+			"A5",
+			"A6",
+			"A7",
+			"A8"
+		]
+	},
+	"A1": {
+		"F": 7,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A2": {
+		"F": 9,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A3": {
+		"F": 4,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A4": {
+		"F": 2,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A5": {
+		"F": 1,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A6": {
+		"F": 2,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A7": {
+		"F": 14,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A8": {
+		"F": 4,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A9": {
+		"F": 1,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"SURVEY": {
+		"F": 1,
+		"Description": "Action",
+		"Targets": [
+		]
+	}
+}
