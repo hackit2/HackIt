@@ -105,5 +105,7 @@ venv.bak/
 
 HackItSolution/Logs/
 .HackItSolution/Logs/
-Logs\
-.Logs\
+Logs/
+.Logs/
+Data/*.csv
+.Data/*.csv
