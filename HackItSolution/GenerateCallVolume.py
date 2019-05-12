@@ -12,25 +12,19 @@ testing_callers_route_collection = {}
 
 training_data_record_count = 1000
 testing_data_record_count = 1000
-nps_range = 4
+nps_range = 9
 
 T1, T2 = tl.get_feasible_path_f()
 
 absolute_buffer = (T1 * -1)
 max_upper_range = absolute_buffer + T2
 
-for x in range(training_data_record_count):
-    caller_route, current_node, final_nps = cdg.recursive_route_builder([], 'N01', 0)
-    training_callers_route_collection['Customer ' + str(x)] = [caller_route, int(math.floor(((final_nps + absolute_buffer) * nps_range) / max_upper_range))]
-
-training_data_frame = pd.DataFrame(data=training_callers_route_collection)
+final_training_customer_list = cdg.recursive_route_builder_V2(training_data_record_count)
+training_data_frame = pd.DataFrame(data=final_training_customer_list)
 tessellated_training_data_frame = training_data_frame.T
 
-for x in range(testing_data_record_count):
-    caller_route, current_node, final_nps = cdg.recursive_route_builder([], 'N01', 0)
-    testing_callers_route_collection['Customer ' + str(x)] = [caller_route, int(math.floor(((final_nps + absolute_buffer) * nps_range) / max_upper_range))]
-
-testing_data_frame = pd.DataFrame(data=testing_callers_route_collection)
+final_testing_customer_list = cdg.recursive_route_builder_V2(testing_data_record_count)
+testing_data_frame = pd.DataFrame(data=final_testing_customer_list)
 tessellated_testing_data_frame = testing_data_frame.T
 
 with open('Data/TrainingData.csv', 'w') as file:

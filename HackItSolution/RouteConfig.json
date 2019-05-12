@@ -1,8 +1,9 @@
 {
-	"N01": {
+	"N00": {
 		"F": 0,
 		"Description": "Decision",
 		"Targets": [
+			"N01",
 			"N02",
 			"N03",
 			"N04",
@@ -10,60 +11,315 @@
 			"N06",
 			"N07",
 			"N08",
-			"N09"
+			"N09",
+			"N10",
+			"N11",
+			"N12",
+			"N13",
+			"N14",
+			"N15",
+			"N16",
+			"N17",
+			"N18",
+			"N19",
+			"N20",
+			"N21",
+			"N22",
+			"N23",
+			"N24",
+			"N25",
+			"N26",
+			"N27",
+			"N28",
+			"N29",
+			"N30",
+			"N31",
+			"N32",
+			"N33",
+			"N34",
+			"N35",
+			"N36",
+			"N37",
+			"N38",
+			"N39",
+			"N40"
+		]
+	},
+	"N01": {
+		"F": 0.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
 		]
 	},
 	"N02": {
-		"F": 0,
+		"F": 0.5,
 		"Description": "Action",
 		"Targets": [
 			"IEE"
 		]
 	},
 	"N03": {
-		"F": 10,
+		"F": 0.75,
 		"Description": "Action",
 		"Targets": [
 			"IEE"
 		]
 	},
 	"N04": {
-		"F": 20,
+		"F": 1,
 		"Description": "Action",
 		"Targets": [
 			"IEE"
 		]
 	},
 	"N05": {
-		"F": 30,
+		"F": 1.25,
 		"Description": "Action",
 		"Targets": [
 			"IEE"
 		]
 	},
 	"N06": {
-		"F": -10,
+		"F": 1.5,
 		"Description": "Action",
 		"Targets": [
 			"IEE"
 		]
 	},
 	"N07": {
-		"F": -20,
+		"F": 1.75,
 		"Description": "Action",
 		"Targets": [
 			"IEE"
 		]
 	},
 	"N08": {
-		"F": -30,
+		"F": 2,
 		"Description": "Action",
 		"Targets": [
 			"IEE"
 		]
 	},
 	"N09": {
-		"F": -40,
+		"F": 2.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N10": {
+		"F": 2.5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N11": {
+		"F": 2.75,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N12": {
+		"F": 3,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N13": {
+		"F": 3.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N14": {
+		"F": 3.5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N15": {
+		"F": 3.75,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N16": {
+		"F": 4,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N17": {
+		"F": 4.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N18": {
+		"F": 4.5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N19": {
+		"F": 4.75,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N20": {
+		"F": 5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N21": {
+		"F": 5.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N22": {
+		"F": 5.5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N23": {
+		"F": 5.75,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N24": {
+		"F": 6,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N25": {
+		"F": 6.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N26": {
+		"F": 6.5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N27": {
+		"F": 6.75,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N28": {
+		"F": 7,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N29": {
+		"F": 7.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N30": {
+		"F": 7.5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N31": {
+		"F": 7.75,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N32": {
+		"F": 8,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N33": {
+		"F": 8.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N34": {
+		"F": 8.5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N35": {
+		"F": 8.75,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N36": {
+		"F": 9,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N37": {
+		"F": 9.25,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N38": {
+		"F": 9.5,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N39": {
+		"F": 9.75,
+		"Description": "Action",
+		"Targets": [
+			"IEE"
+		]
+	},
+	"N40": {
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
 			"IEE"
@@ -123,286 +379,286 @@
 		]
 	},
 	"A01": {
-		"F": 10,
+		"F": 0.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A02": {
-		"F": 10,
+		"F": 0.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A03": {
-		"F": 20,
+		"F": 0.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A04": {
-		"F": -10,
+		"F": 1,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A05": {
-		"F": -20,
+		"F": 1.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A06": {
-		"F": 20,
+		"F": 1.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A07": {
-		"F": 30,
+		"F": 1.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A08": {
-		"F": -30,
+		"F": 2,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A09": {
-		"F": -10,
+		"F": 2.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A10": {
-		"F": 10,
+		"F": 2.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A11": {
-		"F": 20,
+		"F": 2.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A12": {
-		"F": 30,
+		"F": 3,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A13": {
-		"F": -20,
+		"F": 3.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A14": {
-		"F": 20,
+		"F": 3.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A15": {
-		"F": 270,
+		"F": 3.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A16": {
-		"F": 40,
+		"F": 4,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A17": {
-		"F": -40,
+		"F": 4.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A18": {
-		"F": 30,
+		"F": 4.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A19": {
-		"F": 30,
+		"F": 4.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A20": {
-		"F": -30,
+		"F": 5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A21": {
-		"F": 20,
+		"F": 5.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A22": {
-		"F": 10,
+		"F": 5.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A23": {
-		"F": 10,
+		"F": 5.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A24": {
-		"F": 10,
+		"F": 6,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A25": {
-		"F": -10,
+		"F": 6.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A26": {
-		"F": -20,
+		"F": 6.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A27": {
-		"F": -30,
+		"F": 6.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A28": {
-		"F": -10,
+		"F": 7,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A29": {
-		"F": 40,
+		"F": 7.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A30": {
-		"F": -30,
+		"F": 7.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A31": {
-		"F": -20,
+		"F": 7.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A32": {
-		"F": 20,
+		"F": 8,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A33": {
-		"F": 20,
+		"F": 8.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A34": {
-		"F": 10,
+		"F": 8.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A35": {
-		"F": 10,
+		"F": 8.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A36": {
-		"F": 40,
+		"F": 9,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A37": {
-		"F": -20,
+		"F": 9.25,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A38": {
-		"F": -10,
+		"F": 9.5,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A39": {
-		"F": 10,
+		"F": 9.75,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
 	"A40": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SY"
+			"SYV"
 		]
 	},
-	"SY": {
+	"SYV": {
 		"F": 0,
 		"Description": "Action",
 		"Targets": []
