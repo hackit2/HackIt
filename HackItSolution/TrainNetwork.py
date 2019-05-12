@@ -85,7 +85,7 @@ model.compile(optimizer='adam',
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\HackItSolution\\Logs\{}".format(time()))
 
 # Train
-model_history = model.fit(training_data_array, training_labels, epochs=25, batch_size=500, verbose=2, callbacks=[tensor_board])
+model_history = model.fit(training_data_array, training_labels, epochs=1000, batch_size=500, verbose=2, callbacks=[tensor_board])
 
 model.save('Networks\\RoutingEngine.NN'.format(time()))
 
