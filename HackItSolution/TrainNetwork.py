@@ -68,31 +68,31 @@ for x in range(training_data_record_count):
 
 
 # Shape DNN
-dropout = 0.9
+dropout = 0.1
 model = keras.Sequential([
     keras.layers.Flatten(input_shape=(1, 80)),
-    keras.layers.Dense(20, activation=tf.nn.relu),
+    keras.layers.Dense(5, activation=tf.nn.relu),
     keras.layers.Dropout(dropout),
-    keras.layers.Dense(1, activation=tf.nn.sigmoid)
+    keras.layers.Dense(11, activation=tf.nn.softmax)
 ])
 
 # Compile DNN
 model.compile(optimizer='adam',
-              loss='binary_crossentropy',
-              metrics=['accuracy', 'binary_crossentropy'])
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
 
 # Tensorboard
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\HackItSolution\\Logs\{}".format(time()))
 
 # Train
-model_history = model.fit(training_data_array, training_labels, epochs=1000, batch_size=50, verbose=2, callbacks=[tensor_board])
+model_history = model.fit(training_data_array, training_labels, epochs=10, batch_size=50, verbose=2, callbacks=[tensor_board])
 
-model.save('Networks\\RoutingEngine{}.NN'.format(time()))
+model.save('Networks\\RoutingEngine.NN'.format(time()))
 
 scores = []
-for x in range(10):
+for x in range(1000):
     testingdata= np.array(training_data_array[x])
-    Testing_data_array = np.empty([1, 1, max_depth])
+    Testing_data_array = np.empty([1, 1, 80])
     Testing_data_array[0] = testingdata
     #print(model.predict(Testing_data_array))
     prediction = np.argmax(model.predict(Testing_data_array))

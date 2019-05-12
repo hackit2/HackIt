@@ -35,7 +35,7 @@ class CallDataGenerator:
             this_customer['name'] = 'Customer' + str(x).zfill(2)
             caller_route, current_node, final_nps = self.recursive_route_builder([], 'N00', 0)
             this_customer['path'] = caller_route
-            #this_customer['label'] = int(math.floor(final_nps / 2))
-            this_customer['label'] = (int(final_nps / 2) % 2)
+            this_customer['label'] = int(math.floor(final_nps))
+            #this_customer['label'] = (int(final_nps / 2) % 2)
             final_customer_list[this_customer['name']] = this_customer
         return final_customer_list
