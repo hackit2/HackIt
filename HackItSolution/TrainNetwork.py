@@ -71,7 +71,7 @@ for x in range(training_data_record_count):
 dropout = 0.1
 model = keras.Sequential([
     keras.layers.Flatten(input_shape=(1, 80)),
-    keras.layers.Dense(5, activation=tf.nn.relu),
+    keras.layers.Dense(10, activation=tf.nn.relu),
     keras.layers.Dropout(dropout),
     keras.layers.Dense(11, activation=tf.nn.softmax)
 ])
@@ -85,7 +85,7 @@ model.compile(optimizer='adam',
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\HackItSolution\\Logs\{}".format(time()))
 
 # Train
-model_history = model.fit(training_data_array, training_labels, epochs=1000, batch_size=50000, verbose=2, callbacks=[tensor_board])
+model_history = model.fit(training_data_array, training_labels, epochs=25, batch_size=500, verbose=2, callbacks=[tensor_board])
 
 model.save('Networks\\RoutingEngine.NN'.format(time()))
 
