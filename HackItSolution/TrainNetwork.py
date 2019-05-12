@@ -41,26 +41,37 @@ nps_range = 21
         #customer[2][x] = float(''.join(str(ord(c)) for c in customer[2][x]))
 
 # Normalize
-for customer in training_data_frame:
-    customer[2] = [float(i)/sum(customer[2]) for i in customer[2]]
+training_hot_list = {}
+for x in range(training_data_record_count):
+    training_hot_list[x] = [x, (([0] * 40), ([0] * 40)), 0]
+    pos = training_data_frame[x][2][0] - 1
+    training_hot_list[x][1][0][pos] = 1
+    pos = training_data_frame[x][2][1] - 1
+    training_hot_list[x][1][1][pos] = 1
+    training_hot_list[x][2] = training_data_frame[x][0]
 
-# Prep for Network
-training_data = []
-
-for customer in training_data_frame:
-    training_data.append(customer[2])
-
-training_data_array = np.empty([training_data_record_count, 1, max_depth ])
-#training_labels = [float(i)/sum(training_labels) for i in training_labels]
+training_data_temp = []
+training_data_array = np.empty([training_data_record_count, 1, 80])
+labels_array = []
 
 for x in range(training_data_record_count):
-    array = np.array(training_data[x])
+    training_data_temp.append(np.concatenate((training_hot_list[x][1][0], training_hot_list[x][1][1]), axis=0))
+    labels_array.append(training_hot_list[x][2])
+
+training_data_temp = np.array(training_data_temp)
+labels_array = np.array(labels_array)
+
+
+for x in range(training_data_record_count):
+    array = np.array(training_data_temp[x])
     training_data_array[x] = array
+
 
 # Shape DNN
 dropout = 0.9
 model = keras.Sequential([
-    keras.layers.Dense(max_depth, kernel_regularizer=keras.regularizers.l2(0.00001), input_shape=(1, max_depth)),
+    keras.layers.Flatten(input_shape=(1, 80)),
+    keras.layers.Dense(20, activation=tf.nn.relu),
     keras.layers.Dropout(dropout),
     keras.layers.Dense(1, activation=tf.nn.sigmoid)
 ])
