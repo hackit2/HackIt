@@ -3,6 +3,7 @@ import Training_Shapes
 import pandas as pd
 import numpy as np
 import tensorflow as tf
+import tensorflow
 import tensorflow.keras as keras #Tensorflow 2.0
 import tensorflow.keras.callbacks #Tensorflow 2.0
 import math
@@ -85,7 +86,7 @@ model.compile(optimizer='adam',
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\HackItSolution\\Logs\{}".format(time()))
 
 # Train
-model_history = model.fit(training_data_array, training_labels, epochs=1000, batch_size=500, verbose=2, callbacks=[tensor_board])
+model_history = model.fit(training_data_array, training_labels, epochs=1000, batch_size=1001000, verbose=2, callbacks=[tensor_board])
 
 model.save('Networks\\RoutingEngine.NN'.format(time()))
 
