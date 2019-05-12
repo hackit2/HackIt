@@ -13,7 +13,7 @@ class CallDataGenerator:
     def recursive_route_builder(self, caller_route, current_node, running_nps):
         next_node = ''
         next_nps = 0
-        if current_node != 'SURVEY':
+        if current_node != 'SY':
             if self.route_config[current_node]['Description'] == 'Action':
                 next_node = self.route_config[current_node]['Targets'][0]
                 random_nps = random.randint(self.route_config[current_node]['F'] - 1,

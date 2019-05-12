@@ -20,7 +20,7 @@ class TrainingShapes:
         return min_label, max_label
 
     def get_max_path_depth(self):
-        return self.recursive_depth_finder('N1', 0)
+        return self.recursive_depth_finder('N01', 0)
 
     def recursive_depth_finder(self, current_node, depth):
         depth += 1
@@ -32,7 +32,7 @@ class TrainingShapes:
         return self.max_depth
 
     def get_feasible_path_f(self):
-        return self.recursive_feasible_path_f_finder('N1', 0, 0)
+        return self.recursive_feasible_path_f_finder('N01', 0, 0)
 
     def recursive_feasible_path_f_finder(self, current_node, path_total_pos, path_total_neg):
         path_total_pos += self.route_config[current_node]['F'] + 1

@@ -10,7 +10,7 @@ tl = Training_Shapes.TrainingShapes()
 training_callers_route_collection = {}
 testing_callers_route_collection = {}
 
-training_data_record_count = 1000000
+training_data_record_count = 1000
 testing_data_record_count = 1000
 nps_range = 4
 
@@ -20,14 +20,14 @@ absolute_buffer = (T1 * -1)
 max_upper_range = absolute_buffer + T2
 
 for x in range(training_data_record_count):
-    caller_route, current_node, final_nps = cdg.recursive_route_builder([], 'N1', 0)
+    caller_route, current_node, final_nps = cdg.recursive_route_builder([], 'N01', 0)
     training_callers_route_collection['Customer ' + str(x)] = [caller_route, int(math.floor(((final_nps + absolute_buffer) * nps_range) / max_upper_range))]
 
 training_data_frame = pd.DataFrame(data=training_callers_route_collection)
 tessellated_training_data_frame = training_data_frame.T
 
 for x in range(testing_data_record_count):
-    caller_route, current_node, final_nps = cdg.recursive_route_builder([], 'N1', 0)
+    caller_route, current_node, final_nps = cdg.recursive_route_builder([], 'N01', 0)
     testing_callers_route_collection['Customer ' + str(x)] = [caller_route, int(math.floor(((final_nps + absolute_buffer) * nps_range) / max_upper_range))]
 
 testing_data_frame = pd.DataFrame(data=testing_callers_route_collection)

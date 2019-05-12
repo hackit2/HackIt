@@ -1,75 +1,75 @@
 {
-	"N1": {
+	"N01": {
 		"F": 0,
 		"Description": "Decision",
 		"Targets": [
-			"N2",
-			"N3",
-			"N4",
-			"N5",
-			"N6",
-			"N7",
-			"N8",
-			"N9"
+			"N02",
+			"N03",
+			"N04",
+			"N05",
+			"N06",
+			"N07",
+			"N08",
+			"N09"
 		]
 	},
-	"N2": {
+	"N02": {
 		"F": 0,
 		"Description": "Action",
 		"Targets": [
-			"IVREND"
+			"IEE"
 		]
 	},
-	"N3": {
+	"N03": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"IVREND"
+			"IEE"
 		]
 	},
-	"N4": {
+	"N04": {
 		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"IVREND"
+			"IEE"
 		]
 	},
-	"N5": {
+	"N05": {
 		"F": 30,
 		"Description": "Action",
 		"Targets": [
-			"IVREND"
+			"IEE"
 		]
 	},
-	"N6": {
+	"N06": {
 		"F": -10,
 		"Description": "Action",
 		"Targets": [
-			"IVREND"
+			"IEE"
 		]
 	},
-	"N7": {
+	"N07": {
 		"F": -20,
 		"Description": "Action",
 		"Targets": [
-			"IVREND"
+			"IEE"
 		]
 	},
-	"N8": {
+	"N08": {
 		"F": -30,
 		"Description": "Action",
 		"Targets": [
-			"IVREND"
+			"IEE"
 		]
 	},
-	"N9": {
+	"N09": {
 		"F": -40,
 		"Description": "Action",
 		"Targets": [
-			"IVREND"
+			"IEE"
 		]
 	},
-	"IVREND": {
+	"IEE": {
 		"F": 0,
 		"Description": "Action",
 		"Targets": [
@@ -80,15 +80,15 @@
 		"F": 0,
 		"Description": "Decision",
 		"Targets": [
-			"A1",
-			"A2",
-			"A3",
-			"A4",
-			"A5",
-			"A6",
-			"A7",
-			"A8",
-			"A9",
+			"A01",
+			"A02",
+			"A03",
+			"A04",
+			"A05",
+			"A06",
+			"A07",
+			"A08",
+			"A09",
 			"A10",
 			"A11",
 			"A12",
@@ -122,287 +122,287 @@
 			"A40"
 		]
 	},
-	"A1": {
+	"A01": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"A2": {
+	"A02": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"A3": {
+	"A03": {
 		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"A4": {
+	"A04": {
 		"F": -10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"A5": {
+	"A05": {
 		"F": -20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"A6": {
+	"A06": {
 		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"A7": {
+	"A07": {
 		"F": 30,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"A8": {
+	"A08": {
 		"F": -30,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"A9": {
+	"A09": {
 		"F": -10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A10": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A11": {
 		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A12": {
 		"F": 30,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A13": {
 		"F": -20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A14": {
 		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A15": {
 		"F": 270,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A16": {
 		"F": 40,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A17": {
 		"F": -40,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A18": {
 		"F": 30,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A19": {
 		"F": 30,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A20": {
 		"F": -30,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A21": {
 		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A22": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A23": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A24": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A25": {
 		"F": -10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A26": {
 		"F": -20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A27": {
 		"F": -30,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A28": {
 		"F": -10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A29": {
 		"F": 40,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A30": {
 		"F": -30,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A31": {
 		"F": -20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A32": {
 		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A33": {
 		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A34": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A35": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A36": {
 		"F": 40,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A37": {
 		"F": -20,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A38": {
 		"F": -10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A39": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
 	"A40": {
 		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"SURVEY"
+			"SY"
 		]
 	},
-	"SURVEY": {
+	"SY": {
 		"F": 0,
 		"Description": "Action",
 		"Targets": []
