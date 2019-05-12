@@ -15,7 +15,7 @@ tl = Training_Shapes.TrainingShapes()
 
 training_data_frame = pd.read_csv('Data/TrainingData.csv', header=0, index_col=0).values
 testing_data_frame = pd.read_csv('Data/TestingData.csv', header=0, index_col=0).values
-nps_range = 10
+nps_range = 5
 
 max_depth = tl.get_max_path_depth()
 
@@ -61,13 +61,13 @@ for x in range(training_data_record_count):
     training_data_array[x] = array
 
 # Shape DNN
-dropout = 0.5
+dropout = 0.99999
 hidden_nodes = int(math.floor(max_depth *.3))
 print(hidden_nodes)
 model = keras.Sequential([
     keras.layers.Dense(max_depth, activation=tf.nn.relu, input_shape=(1, max_depth)),
     keras.layers.Dropout(dropout),
-    keras.layers.Dense(5, activation=tf.nn.relu),
+    keras.layers.Dense(20, activation=tf.nn.relu),
     keras.layers.Dropout(dropout),
     keras.layers.Dense(nps_range, activation=tf.nn.softmax)
 ])
@@ -84,3 +84,19 @@ tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('
 model_history = model.fit(training_data_array, training_labels, epochs=200, batch_size=5000, verbose=2, callbacks=[tensor_board])
 
 model.save('RoutingEngine[]'.format(time()))
+
+scores = []
+for x in range(100):
+    testingdata= np.array(training_data_array[x])
+    Testing_data_array = np.empty([1, 1, max_depth])
+    Testing_data_array[0] = testingdata
+    #print(model.predict(Testing_data_array))
+    prediction = np.argmax(model.predict(Testing_data_array))
+    didPass = 'false'
+    if prediction == training_labels[x]:
+        scores.append(1)
+    else:
+        scores.append(0)
+
+    print(didPass + " " + str(prediction) + " and result should have been " + str(training_labels[x]))
+print("Final Score: " + str(sum(scores) / len(scores) ))
