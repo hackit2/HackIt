@@ -54,20 +54,20 @@ for customer in training_data_frame:
     result = customer[1] + abs(min_label)
     training_labels.append(result)
 
-training_data_array = np.empty([training_data_record_count,1,14])
+training_data_array = np.empty([training_data_record_count,1,max_depth])
 
 for x in range(training_data_record_count):
     array = np.array(training_data[x])
     training_data_array[x] = array
 
 # Shape DNN
-dropout = 0.2
+dropout = 0.9
 hidden_nodes = int(math.floor(max_depth *.66))
 
 model = keras.Sequential([
     keras.layers.Dense(max_depth, kernel_regularizer=keras.regularizers.l2(0.001), activation=tf.nn.relu, input_shape=(1,max_depth)),
     keras.layers.Dropout(dropout),
-    keras.layers.Dense(hidden_nodes, activation=tf.nn.relu),
+    keras.layers.Dense(hidden_nodes, activation=tf.nn.relu, kernel_regularizer=keras.regularizers.l2(0.001)),
     keras.layers.Dropout(dropout),
     keras.layers.Dense(nps_range, activation=tf.nn.sigmoid)
 ])
@@ -81,5 +81,5 @@ model.compile(optimizer=keras.optimizers.Adam(),
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\Logs\{}".format(time()))
 
 # Train
-model_history = model.fit(training_data_array, training_labels, epochs=1000, batch_size=50000, verbose=2, callbacks=[tensor_board])
+model_history = model.fit(training_data_array, training_labels, epochs=10000, batch_size=5000, verbose=2, callbacks=[tensor_board])
 
