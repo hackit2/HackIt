@@ -6,7 +6,7 @@ import numpy as np
 
 class Inferencing:
     def __init__(self):
-        self.model = keras.models.load_model('Networks\\RoutingEngine1Mrecords1000epoch99percent.NN')
+        self.model = keras.models.load_model('Networks\\RoutingEngine1Mrecords25epoch96percent.NN')
 
     def get_agent_predictions(self, ivr_node):
         predictions = {}
@@ -15,7 +15,7 @@ class Inferencing:
 
         for x in range(1, 41):
             training_hot_list = (([0] * 40), ([0] * 40))
-            training_hot_list[0][ivr_node] = 1
+            training_hot_list[0][ivr_node-1] = 1
             training_hot_list[1][x-1] = 1
             testing_record = []
             testing_record.append(np.concatenate((training_hot_list[0], training_hot_list[1]), axis=0))
