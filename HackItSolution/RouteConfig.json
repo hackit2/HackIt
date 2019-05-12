@@ -1,212 +1,72 @@
 {
 	"N1": {
-		"F": 2,
-		"Description": "Decision",
-		"Targets": [
-			"N2",
-			"N3"
-		]
-	},
-	"N2": {
-		"F": 1,
-		"Description": "Decision",
-		"Targets": [
-			"N8",
-			"N9",
-			"N4"
-		]
-	},
-	"N3": {
-		"F": 1,
-		"Description": "Decision",
-		"Targets": [
-			"N5",
-			"N14",
-			"N6"
-		]
-	},
-	"N4": {
 		"F": 0,
 		"Description": "Decision",
 		"Targets": [
-			"N10",
-			"N11"
+			"N2",
+			"N3",
+			"N4",
+			"N5",
+			"N6",
+			"N7",
+			"N8",
+			"N9"
 		]
 	},
-	"N5": {
-		"F": 2,
-		"Description": "Decision",
-		"Targets": [
-			"N9",
-			"N15"
-		]
-	},
-	"N6": {
-		"F": 3,
-		"Description": "Decision",
-		"Targets": [
-			"N15",
-			"N17"
-		]
-	},
-	"N7": {
-		"F": 5,
-		"Description": "Decision",
-		"Targets": [
-			"N12",
-			"N13"
-		]
-	},
-	"N8": {
-		"F": 1,
-		"Description": "Action",
-		"Targets": [
-			"N10",
-			"N14"
-		]
-	},
-	"N9": {
-		"F": -4,
-		"Description": "Action",
-		"Targets": [
-			"N12"
-		]
-	},
-	"N10": {
-		"F": 2,
-		"Description": "Action",
-		"Targets": [
-			"N11",
-			"N5"
-		]
-	},
-	"N11": {
-		"F": 2,
-		"Description": "Action",
-		"Targets": [
-			"N12"
-		]
-	},
-	"N12": {
-		"F": -1,
-		"Description": "Action",
-		"Targets": [
-			"N18"
-		]
-	},
-	"N13": {
-		"F": 6,
-		"Description": "Action",
-		"Targets": [
-			"N12"
-		]
-	},
-	"N14": {
-		"F": 1,
-		"Description": "Action",
-		"Targets": [
-			"N7"
-		]
-	},
-	"N15": {
-		"F": 4,
-		"Description": "Action",
-		"Targets": [
-			"N16"
-		]
-	},
-	"N16": {
-		"F": 1,
-		"Description": "Action",
-		"Targets": [
-			"N17"
-		]
-	},
-	"N17": {
-		"F": 2,
-		"Description": "Action",
-		"Targets": [
-			"N7"
-		]
-	},
-	"N18": {
-		"F": 2,
-		"Description": "Decision",
-		"Targets": [
-			"N21",
-			"N19"
-		]
-	},
-	"N19": {
-		"F": -5,
-		"Description": "Action",
-		"Targets": [
-			"N20"
-		]
-	},
-	"N20": {
+	"N2": {
 		"F": 0,
 		"Description": "Action",
 		"Targets": [
 			"IVREND"
 		]
 	},
-	"N21": {
-		"F": 6,
+	"N3": {
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
-			"N22"
+			"IVREND"
 		]
 	},
-	"N22": {
-		"F": 2,
-		"Description": "Decision",
-		"Targets": [
-			"N23",
-			"N28"
-		]
-	},
-	"N23": {
-		"F": 2,
-		"Description": "Decision",
-		"Targets": [
-			"N24",
-			"N26"
-		]
-	},
-	"N24": {
-		"F": 1,
+	"N4": {
+		"F": 20,
 		"Description": "Action",
 		"Targets": [
-			"N25"
+			"IVREND"
 		]
 	},
-	"N25": {
-		"F": 1,
+	"N5": {
+		"F": 30,
 		"Description": "Action",
 		"Targets": [
-			"N27"
+			"IVREND"
 		]
 	},
-	"N26": {
-		"F": 1,
+	"N6": {
+		"F": -10,
 		"Description": "Action",
 		"Targets": [
-			"N25"
+			"IVREND"
 		]
 	},
-	"N27": {
-		"F": 1,
+	"N7": {
+		"F": -20,
 		"Description": "Action",
 		"Targets": [
-			"N20"
+			"IVREND"
 		]
 	},
-	"N28": {
-		"F": 2,
+	"N8": {
+		"F": -30,
 		"Description": "Action",
 		"Targets": [
-			"N20"
+			"IVREND"
+		]
+	},
+	"N9": {
+		"F": -40,
+		"Description": "Action",
+		"Targets": [
+			"IVREND"
 		]
 	},
 	"IVREND": {
@@ -263,7 +123,7 @@
 		]
 	},
 	"A1": {
-		"F": 1,
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
@@ -291,7 +151,7 @@
 		]
 	},
 	"A5": {
-		"F": -15,
+		"F": -20,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
@@ -312,63 +172,63 @@
 		]
 	},
 	"A8": {
-		"F": -5,
+		"F": -30,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A9": {
-		"F": 5,
+		"F": -10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A10": {
-		"F": 8,
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A11": {
-		"F": 12,
+		"F": 20,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A12": {
-		"F": 14,
+		"F": 30,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A13": {
-		"F": -7,
+		"F": -20,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A14": {
-		"F": 21,
+		"F": 20,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A15": {
-		"F": 27,
+		"F": 270,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A16": {
-		"F": -8,
+		"F": 40,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
@@ -382,56 +242,56 @@
 		]
 	},
 	"A18": {
-		"F": 25,
-		"Description": "Action",
-		"Targets": [
-			"SURVEY"
-		]
-	},
-	"A19": {
-		"F": 29,
-		"Description": "Action",
-		"Targets": [
-			"SURVEY"
-		]
-	},
-	"A20": {
 		"F": 30,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
+	"A19": {
+		"F": 30,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
+	"A20": {
+		"F": -30,
+		"Description": "Action",
+		"Targets": [
+			"SURVEY"
+		]
+	},
 	"A21": {
-		"F": 2,
+		"F": 20,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A22": {
-		"F": 4,
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A23": {
-		"F": 6,
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A24": {
-		"F": 8,
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A25": {
-		"F": 10,
+		"F": -10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
@@ -452,28 +312,28 @@
 		]
 	},
 	"A28": {
-		"F": 3,
+		"F": -10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A29": {
-		"F": 5,
+		"F": 40,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A30": {
-		"F": 14,
+		"F": -30,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A31": {
-		"F": 14,
+		"F": -20,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
@@ -508,42 +368,42 @@
 		]
 	},
 	"A36": {
-		"F": 4,
+		"F": 40,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A37": {
-		"F": -2,
+		"F": -20,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A38": {
-		"F": -6,
+		"F": -10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A39": {
-		"F": 14,
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"A40": {
-		"F": 18,
+		"F": 10,
 		"Description": "Action",
 		"Targets": [
 			"SURVEY"
 		]
 	},
 	"SURVEY": {
-		"F": 1,
+		"F": 0,
 		"Description": "Action",
 		"Targets": []
 	}

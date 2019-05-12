@@ -15,7 +15,7 @@ tl = Training_Shapes.TrainingShapes()
 
 training_data_frame = pd.read_csv('Data/TrainingData.csv', header=0, index_col=0).values
 testing_data_frame = pd.read_csv('Data/TestingData.csv', header=0, index_col=0).values
-nps_range = 5
+nps_range = 10
 
 max_depth = tl.get_max_path_depth()
 
@@ -61,15 +61,15 @@ for x in range(training_data_record_count):
     training_data_array[x] = array
 
 # Shape DNN
-dropout = 0.999
+dropout = 0.5
 hidden_nodes = int(math.floor(max_depth *.3))
-
+print(hidden_nodes)
 model = keras.Sequential([
-    keras.layers.Dense(max_depth, kernel_regularizer=keras.regularizers.l2(0.0000001), activation=tf.nn.relu, input_shape=(1,max_depth)),
+    keras.layers.Dense(max_depth, activation=tf.nn.relu, input_shape=(1, max_depth)),
     keras.layers.Dropout(dropout),
-    keras.layers.Dense(hidden_nodes, activation=tf.nn.relu, kernel_regularizer=keras.regularizers.l2(0.0000001)),
+    keras.layers.Dense(5, activation=tf.nn.relu),
     keras.layers.Dropout(dropout),
-    keras.layers.Dense(nps_range, activation=tf.nn.sigmoid)
+    keras.layers.Dense(nps_range, activation=tf.nn.softmax)
 ])
 
 # Compile DNN
@@ -81,6 +81,6 @@ model.compile(optimizer=keras.optimizers.Adam(),
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\HackItSolution\\Logs\{}".format(time()))
 
 # Train
-model_history = model.fit(training_data_array, training_labels, epochs=20, batch_size=5000, verbose=2, callbacks=[tensor_board])
+model_history = model.fit(training_data_array, training_labels, epochs=200, batch_size=5000, verbose=2, callbacks=[tensor_board])
 
 model.save('RoutingEngine[]'.format(time()))
