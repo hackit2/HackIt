@@ -34,7 +34,7 @@ testing_data_frame = pd.DataFrame(data=testing_callers_route_collection)
 tessellated_testing_data_frame = testing_data_frame.T
 
 with open('Data/TrainingData.csv', 'w') as file:
-    file.write(tessellated_training_data_frame.to_csv(index=True))
+    file.write(tessellated_training_data_frame.to_csv(index=True, line_terminator='\n'))
 
 with open('Data/TestingData.csv', 'w') as file:
-    file.write(tessellated_testing_data_frame.to_csv(index=True))
+    file.write(tessellated_testing_data_frame.to_csv(index=True, line_terminator='\n'))
