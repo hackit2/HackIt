@@ -61,13 +61,13 @@ for x in range(training_data_record_count):
     training_data_array[x] = array
 
 # Shape DNN
-dropout = 0.99999
+dropout = 0.5
 hidden_nodes = int(math.floor(max_depth *.3))
 print(hidden_nodes)
 model = keras.Sequential([
     keras.layers.Dense(max_depth, activation=tf.nn.relu, input_shape=(1, max_depth)),
     keras.layers.Dropout(dropout),
-    keras.layers.Dense(20, activation=tf.nn.relu),
+    keras.layers.Dense(5, activation=tf.nn.relu),
     keras.layers.Dropout(dropout),
     keras.layers.Dense(nps_range, activation=tf.nn.softmax)
 ])
@@ -81,9 +81,9 @@ model.compile(optimizer=keras.optimizers.Adam(),
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\HackItSolution\\Logs\{}".format(time()))
 
 # Train
-model_history = model.fit(training_data_array, training_labels, epochs=200, batch_size=5000, verbose=2, callbacks=[tensor_board])
+model_history = model.fit(training_data_array, training_labels, epochs=3, batch_size=5000, verbose=2, callbacks=[tensor_board])
 
-model.save('RoutingEngine[]'.format(time()))
+model.save('Networks\\RoutingEngine{}.NN'.format(time()))
 
 scores = []
 for x in range(100):
