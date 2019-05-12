@@ -151,7 +151,7 @@ model.compile(optimizer=keras.optimizers.Adam(),
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\Logs\{}".format(time()))
 
 # Train
-model_history = model.fit(training_data_array, training_labels, epochs=10, batch_size=50000, verbose=2, callbacks=[tensor_board])
+model_history = model.fit(training_data_array, training_labels, epochs=1000, batch_size=50000, verbose=2, callbacks=[tensor_board])
 
 #plot_history([('Current_Training', model_history)])
 

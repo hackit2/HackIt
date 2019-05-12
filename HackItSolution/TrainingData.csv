@@ -1,0 +1,1001 @@
+,0,1
+Customer 0,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 1,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 2,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 3,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 4,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 5,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 6,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 7,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 8,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 9,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 10,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 11,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 12,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 13,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 14,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 15,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 16,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 17,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 18,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 19,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 20,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 21,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 22,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 23,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 24,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 25,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 26,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 27,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 28,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 29,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 30,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 31,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 32,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 33,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 34,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 35,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 36,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 37,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 38,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 39,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 40,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 41,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 42,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 43,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 44,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 45,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 46,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 47,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 48,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 49,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 50,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 51,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 52,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 53,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 54,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 55,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 56,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 57,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 58,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 59,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 60,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 61,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 62,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 63,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 64,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 65,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 66,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 67,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 68,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 69,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 70,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 71,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 72,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 73,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 74,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 75,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 76,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 77,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 78,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 79,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 80,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 81,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 82,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 83,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 84,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 85,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 86,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 87,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 88,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 89,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 90,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 91,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 92,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 93,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 94,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 95,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 96,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 97,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 98,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 99,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 100,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 101,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 102,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 103,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 104,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 105,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 106,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 107,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",2
+Customer 108,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 109,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 110,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 111,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 112,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 113,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 114,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 115,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 116,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 117,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 118,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 119,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 120,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 121,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 122,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 123,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",0
+Customer 124,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 125,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 126,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 127,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 128,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 129,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 130,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 131,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 132,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",0
+Customer 133,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 134,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 135,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 136,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 137,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 138,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 139,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 140,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 141,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 142,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 143,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 144,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 145,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 146,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 147,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 148,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 149,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 150,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 151,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 152,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 153,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 154,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 155,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 156,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",0
+Customer 157,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 158,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 159,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 160,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 161,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",6
+Customer 162,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 163,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 164,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 165,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 166,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 167,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 168,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 169,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 170,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 171,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 172,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 173,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 174,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 175,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 176,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 177,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 178,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 179,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",0
+Customer 180,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 181,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 182,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 183,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 184,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 185,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 186,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 187,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 188,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 189,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 190,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 191,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 192,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",2
+Customer 193,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 194,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 195,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 196,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 197,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 198,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 199,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 200,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 201,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 202,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 203,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 204,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 205,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 206,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 207,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 208,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 209,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 210,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 211,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",6
+Customer 212,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 213,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 214,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 215,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 216,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 217,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 218,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 219,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",5
+Customer 220,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 221,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 222,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 223,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 224,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 225,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 226,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 227,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 228,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 229,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 230,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 231,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 232,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 233,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 234,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 235,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 236,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 237,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 238,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 239,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 240,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 241,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 242,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 243,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 244,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 245,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 246,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 247,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 248,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 249,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 250,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 251,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 252,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 253,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 254,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 255,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 256,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 257,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 258,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 259,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 260,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",1
+Customer 261,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 262,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 263,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 264,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 265,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 266,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 267,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 268,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",1
+Customer 269,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 270,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 271,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 272,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 273,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 274,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 275,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 276,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 277,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 278,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 279,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 280,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 281,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 282,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 283,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 284,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 285,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 286,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 287,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 288,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 289,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 290,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",6
+Customer 291,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 292,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 293,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 294,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 295,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 296,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 297,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 298,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 299,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 300,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 301,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 302,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 303,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 304,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 305,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 306,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 307,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 308,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 309,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 310,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 311,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 312,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 313,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 314,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 315,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",6
+Customer 316,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 317,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 318,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 319,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 320,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 321,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 322,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 323,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 324,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 325,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 326,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 327,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 328,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 329,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 330,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 331,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 332,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 333,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 334,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 335,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 336,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 337,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 338,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 339,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 340,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 341,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 342,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 343,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 344,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",6
+Customer 345,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 346,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 347,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 348,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 349,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 350,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 351,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 352,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 353,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 354,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 355,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 356,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 357,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 358,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 359,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 360,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 361,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 362,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 363,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 364,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 365,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 366,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 367,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 368,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 369,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 370,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 371,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 372,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 373,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 374,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 375,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 376,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 377,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 378,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 379,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 380,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 381,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 382,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 383,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",5
+Customer 384,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 385,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 386,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 387,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 388,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 389,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",5
+Customer 390,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 391,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 392,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 393,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 394,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 395,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 396,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 397,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 398,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 399,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 400,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 401,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 402,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 403,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 404,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 405,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 406,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 407,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 408,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 409,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 410,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 411,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 412,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 413,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 414,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 415,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 416,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 417,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 418,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 419,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 420,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 421,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 422,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 423,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 424,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 425,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 426,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 427,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 428,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 429,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 430,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 431,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 432,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 433,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 434,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 435,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 436,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 437,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 438,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 439,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 440,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 441,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 442,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 443,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 444,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 445,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 446,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 447,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 448,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 449,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 450,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 451,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 452,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 453,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 454,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 455,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 456,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 457,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 458,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 459,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 460,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 461,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 462,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 463,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 464,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 465,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 466,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 467,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 468,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 469,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 470,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 471,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 472,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 473,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 474,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 475,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 476,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 477,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 478,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 479,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 480,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 481,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 482,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 483,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 484,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 485,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 486,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 487,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 488,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 489,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 490,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 491,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 492,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 493,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 494,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 495,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 496,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 497,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 498,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 499,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 500,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 501,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 502,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",2
+Customer 503,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 504,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 505,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 506,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 507,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 508,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 509,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 510,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 511,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 512,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 513,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 514,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 515,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 516,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 517,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 518,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 519,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 520,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 521,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 522,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 523,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 524,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 525,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 526,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 527,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 528,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 529,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",8
+Customer 530,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 531,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 532,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 533,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",1
+Customer 534,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 535,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 536,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 537,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 538,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 539,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",5
+Customer 540,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 541,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 542,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 543,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 544,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 545,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 546,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 547,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 548,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 549,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 550,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 551,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 552,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 553,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 554,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 555,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 556,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 557,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 558,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 559,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 560,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 561,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 562,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 563,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 564,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 565,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 566,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 567,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 568,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 569,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 570,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 571,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 572,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 573,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 574,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 575,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 576,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 577,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 578,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 579,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 580,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 581,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 582,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 583,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 584,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 585,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 586,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 587,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 588,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 589,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 590,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 591,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 592,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 593,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 594,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 595,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 596,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 597,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 598,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 599,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 600,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 601,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 602,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 603,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 604,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 605,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 606,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 607,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 608,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",0
+Customer 609,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 610,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 611,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 612,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 613,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 614,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 615,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 616,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 617,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 618,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 619,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 620,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 621,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 622,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 623,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 624,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 625,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",6
+Customer 626,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 627,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 628,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 629,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 630,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 631,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 632,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 633,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 634,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 635,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 636,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 637,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 638,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 639,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 640,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 641,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 642,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",6
+Customer 643,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 644,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 645,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",5
+Customer 646,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 647,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 648,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 649,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 650,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 651,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 652,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 653,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 654,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 655,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 656,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 657,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 658,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 659,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 660,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 661,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 662,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 663,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 664,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 665,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 666,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 667,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 668,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 669,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 670,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 671,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 672,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 673,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 674,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 675,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 676,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 677,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 678,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 679,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 680,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 681,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 682,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 683,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",0
+Customer 684,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 685,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 686,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 687,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 688,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 689,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 690,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 691,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 692,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 693,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 694,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 695,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 696,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 697,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 698,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 699,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 700,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 701,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 702,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 703,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 704,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 705,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 706,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 707,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 708,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 709,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 710,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 711,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 712,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 713,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 714,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 715,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 716,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 717,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 718,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 719,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 720,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 721,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 722,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 723,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 724,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 725,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 726,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 727,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 728,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 729,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 730,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 731,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 732,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 733,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",6
+Customer 734,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 735,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 736,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 737,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 738,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 739,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 740,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 741,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 742,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 743,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 744,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 745,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 746,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 747,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 748,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 749,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 750,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 751,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 752,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 753,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 754,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 755,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 756,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 757,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 758,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 759,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 760,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 761,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 762,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 763,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",7
+Customer 764,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 765,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 766,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 767,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",2
+Customer 768,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 769,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 770,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 771,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 772,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 773,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 774,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 775,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 776,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 777,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 778,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 779,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 780,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 781,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 782,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 783,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 784,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 785,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 786,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 787,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 788,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 789,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 790,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 791,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 792,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 793,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 794,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 795,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 796,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 797,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 798,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 799,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 800,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 801,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 802,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",6
+Customer 803,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 804,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 805,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 806,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 807,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 808,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 809,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 810,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 811,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 812,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",5
+Customer 813,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 814,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 815,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 816,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 817,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 818,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 819,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 820,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",2
+Customer 821,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",0
+Customer 822,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 823,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 824,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 825,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 826,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 827,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 828,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 829,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 830,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 831,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 832,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 833,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 834,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 835,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 836,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 837,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 838,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 839,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 840,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 841,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 842,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 843,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 844,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 845,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 846,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 847,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 848,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 849,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 850,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 851,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 852,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 853,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 854,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 855,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 856,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 857,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 858,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 859,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",2
+Customer 860,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 861,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 862,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 863,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 864,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 865,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 866,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 867,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 868,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 869,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 870,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 871,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 872,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 873,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 874,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 875,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 876,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 877,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",6
+Customer 878,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 879,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 880,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 881,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 882,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 883,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 884,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 885,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 886,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 887,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",1
+Customer 888,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 889,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 890,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 891,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 892,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",6
+Customer 893,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 894,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 895,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",4
+Customer 896,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 897,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 898,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",2
+Customer 899,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 900,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 901,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",5
+Customer 902,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 903,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 904,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 905,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 906,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 907,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",5
+Customer 908,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",6
+Customer 909,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 910,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 911,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 912,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 913,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",1
+Customer 914,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 915,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 916,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 917,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 918,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",1
+Customer 919,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 920,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 921,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 922,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 923,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 924,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 925,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 926,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 927,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 928,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 929,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",4
+Customer 930,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 931,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",4
+Customer 932,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 933,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 934,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 935,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",1
+Customer 936,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 937,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 938,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 939,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 940,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 941,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",4
+Customer 942,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",5
+Customer 943,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 944,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 945,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 946,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 947,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 948,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 949,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 950,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 951,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 952,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 953,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 954,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 955,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 956,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 957,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",3
+Customer 958,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 959,"['N3', 'N6', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",6
+Customer 960,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 961,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",3
+Customer 962,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",4
+Customer 963,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",2
+Customer 964,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 965,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 966,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 967,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",3
+Customer 968,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",5
+Customer 969,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 970,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 971,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",3
+Customer 972,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",1
+Customer 973,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",5
+Customer 974,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 975,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",2
+Customer 976,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",0
+Customer 977,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",2
+Customer 978,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 979,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",2
+Customer 980,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",3
+Customer 981,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",5
+Customer 982,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",2
+Customer 983,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A5', 'SURVEY']",4
+Customer 984,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 985,"['N2', 'N4', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 986,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",4
+Customer 987,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A2', 'SURVEY']",6
+Customer 988,"['N3', 'N14', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",4
+Customer 989,"['N3', 'N6', 'N17', 'N7', 'N12', 'IVREND', 'CLE', 'A6', 'SURVEY']",3
+Customer 990,"['N3', 'N5', 'N9', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",1
+Customer 991,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A8', 'SURVEY']",3
+Customer 992,"['N3', 'N14', 'N7', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 993,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",6
+Customer 994,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A3', 'SURVEY']",3
+Customer 995,"['N2', 'N8', 'N10', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",2
+Customer 996,"['N2', 'N4', 'N11', 'N12', 'IVREND', 'CLE', 'A4', 'SURVEY']",1
+Customer 997,"['N3', 'N6', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",5
+Customer 998,"['N3', 'N5', 'N15', 'N16', 'N17', 'N7', 'N13', 'N12', 'IVREND', 'CLE', 'A7', 'SURVEY']",7
+Customer 999,"['N2', 'N9', 'N12', 'IVREND', 'CLE', 'A1', 'SURVEY']",1
