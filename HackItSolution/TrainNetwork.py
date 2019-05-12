@@ -15,47 +15,43 @@ tl = Training_Shapes.TrainingShapes()
 
 training_data_frame = pd.read_csv('Data/TrainingData.csv', header=0, index_col=0).values
 testing_data_frame = pd.read_csv('Data/TestingData.csv', header=0, index_col=0).values
-nps_range = 10
 
-max_depth = tl.get_max_path_depth()
+
+max_depth = tl.get_max_path_depth() +1
 
 # Join Data
 training_data_frame = np.concatenate((training_data_frame, testing_data_frame), axis=0)
 
-training_data_record_count =training_data_frame.shape[0]
+training_data_record_count = training_data_frame.shape[0]
+training_labels =[]
 
 # Convert and Pad Data
 for customer in training_data_frame:
-    customer[0] = customer[0].replace('[','').replace(']','').split(',')
-    customer[0] = customer[0] + ['P0'] * (max_depth - len(customer[0]))
+    customer[2] = customer[2].replace('[','').replace(']','').split(',')
+    customer[2] = customer[2] + ['P0'] * (max_depth - len(customer[2]))
+    for x in range(len(customer[2])):
+        customer[2][x] = int(customer[2][x].replace('N', '').replace('A', '').replace('P', '').replace('\'',''))
+    training_labels.append(customer[0])
+
+nps_range = 21
 
 # Convert Strings to Floats
-for customer in training_data_frame:
-    for x in range(0, len(customer[0])):
-        customer[0][x] = float(''.join(str(ord(c)) for c in customer[0][x]))
+#for customer in training_data_frame:
+    #for x in range(len(customer[2])):
+        #customer[2][x] = float(''.join(str(ord(c)) for c in customer[2][x]))
 
 # Normalize
 for customer in training_data_frame:
-    customer[0] = [float(i)/sum(customer[0]) for i in customer[0]]
+    customer[2] = [float(i)/sum(customer[2]) for i in customer[2]]
 
 # Prep for Network
 training_data = []
-training_labels =[]
-min_label =999
-max_label =-999
-for customer in training_data_frame:
-    training_data.append(customer[0])
-    if(customer[1] < min_label):
-        min_label = customer[1]
-    if (customer[1] > max_label):
-        max_label = customer[1]
 
 for customer in training_data_frame:
-    result = customer[1] + abs(min_label)
-    training_labels.append(result)
+    training_data.append(customer[2])
 
-training_data_array = np.empty([training_data_record_count,1,max_depth])
-training_labels = [float(i)/sum(training_labels) for i in training_labels]
+training_data_array = np.empty([training_data_record_count, 1, max_depth ])
+#training_labels = [float(i)/sum(training_labels) for i in training_labels]
 
 for x in range(training_data_record_count):
     array = np.array(training_data[x])
@@ -63,18 +59,16 @@ for x in range(training_data_record_count):
 
 # Shape DNN
 dropout = 0.9
-hidden_nodes = int(math.floor(max_depth *.3))
-print(hidden_nodes)
 model = keras.Sequential([
-    keras.layers.Dense(max_depth, activation=tf.nn.relu, input_shape=(1, max_depth)),
+    keras.layers.Dense(max_depth, kernel_regularizer=keras.regularizers.l2(0.00001), input_shape=(1, max_depth)),
     keras.layers.Dropout(dropout),
-    keras.layers.Dense(nps_range, activation=tf.nn.softmax)
+    keras.layers.Dense(1, activation=tf.nn.sigmoid)
 ])
 
 # Compile DNN
-model.compile(optimizer=keras.optimizers.Adam(),
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
+model.compile(optimizer='adam',
+              loss='binary_crossentropy',
+              metrics=['accuracy', 'binary_crossentropy'])
 
 # Tensorboard
 tensor_board = tensorflow.keras.callbacks.TensorBoard(log_dir=os.path.realpath('..')+"\\HackItSolution\\Logs\{}".format(time()))

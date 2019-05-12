@@ -10,9 +10,8 @@ tl = Training_Shapes.TrainingShapes()
 training_callers_route_collection = {}
 testing_callers_route_collection = {}
 
-training_data_record_count = 1000
+training_data_record_count = 60000
 testing_data_record_count = 1000
-nps_range = 9
 
 T1, T2 = tl.get_feasible_path_f()
 
