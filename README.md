@@ -7,10 +7,13 @@ Dont use Tensorflow-gpu if we wont intent to have GPU on server.
 
 The official Network is Networks\RoutingEngine1Mrecords25epoch96percent.NN
 
+
 Tensorboard
   tensorboard --logdir=.\HackIt\HackItSolution\Logs
 
+
 use "GenerateCallVolume.py" to gennerate new call volume
+
 use "TrainNetwork.py" to train on that new volume
 
 update "\Inferencing\__init__.py" to use the new .NN
