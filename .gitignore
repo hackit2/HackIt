@@ -298,18 +298,22 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/vim,linux,macos,python,windows,pycharm
 
 
+# IDE stuffs
 .idea/workspace.xml
+.vs/
 
-
+# Logs
 HackItSolution/Logs/
 .HackItSolution/Logs/
 Logs/
 .Logs/
+!.HackItSolution/Logs/.gitkeep
+!HackItSolution/Logs/.gitkeep
+
+# Data files
 Data/*.csv
 .Data/*.csv
 HackItSolution/Data/*.csv
 .HackItSolution/Data/*.csv
 !.HackItSolution/Data/.gitkeep 
-!HackItSolution/Data/.gitkeep 
-!.HackItSolution/Logs/.gitkeep 
-!HackItSolution/Logs/.gitkeep 
+!HackItSolution/Data/.gitkeep
