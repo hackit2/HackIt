@@ -8,7 +8,7 @@ mod_api = Blueprint('api', __name__, url_prefix='/api')
 
 @mod_api.route('/', methods=['GET'])
 def index():
-    return 'You have hit the API.'
+    return 'You have hit the API. You are visitor #{cnt}'
 
 
 @mod_api.route('/agent/<int:id>', methods=['GET', 'POST'])
@@ -20,7 +20,21 @@ def get_agent(id):
     will_ring = r.randrange(0, 101)
 
     agent = Agent(id, r.randrange(3, 10))
-    if (will_ring <= chance):
+    if will_ring <= chance:
         agent.ring()
 
     return str(agent)
+
+
+def get_neural_cc():
+    if 'neural_cc' not in g:
+        g.neural_cc = CallCenter()
+
+    return g.neural_cc
+
+
+def get_classic_cc():
+    if 'classic_cc' not in g:
+        g.classic_cc = CallCenter()
+
+    return g.classic_cc

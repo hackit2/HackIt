@@ -17,6 +17,9 @@ class Agent:
         return f'Agent&lt;id={self.id}&gt;[on_call={self.on_call},' + \
                 f'call_start={self.call_start},call_end={self.call_end}]'
 
+    def __repr__(self):
+        return self.__str__()
+
     def ring(self):
         if not self.on_call:
             self.on_call = True
