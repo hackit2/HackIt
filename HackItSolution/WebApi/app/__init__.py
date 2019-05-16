@@ -14,4 +14,4 @@ def not_found(error):
 
 @app.route('/')
 def index():
-    return 'Welcome home.'
+    return render_template('index.html')
