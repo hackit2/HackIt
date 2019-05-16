@@ -23,3 +23,17 @@ use "TrainNetwork.py" to train on that new volume
 update "\Inferencing\__init__.py" to use the new .NN
 
 use "Main.py" to Inference the New Network
+
+
+## Docker
+
+This project contains a `Dockerfile` for running the API in a container.
+
+From the root of the project tree, run the following:
+
+```bash
+$ docker build -t hackit .
+$ docker run -p 5000:5000 hackit
+```
+
+If you need to get to a local shell, run the container with `docker run --interactive --tty hackit bash`.
