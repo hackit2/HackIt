@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from datetime import datetime
+from datetime import datetime, timedelta
 from pymongo import MongoClient
 from random import Random
 from WebApi import config
@@ -44,6 +44,9 @@ while True:
                 'id': i,
                 'busy': False,
                 'nps': None,
+                '_average_nps': 0,
+                '_total_nps': 0,
+                '_call_count': 0,
                 '_call_start': None,
                 '_call_end': None,
                 '_avg_handle_time': RAND.randint(2, 7)
@@ -64,16 +67,44 @@ while True:
     if ID is not None:
         now = datetime.utcnow()
 
-        # Clear out any agents who have finished their call since
-        # our last loop.  TODO
+        # Update the state and stats for each individual agent.
+        for dataset in ['classic', 'neural']:
+            for agent in STATE[dataset]['agents']:
+                if agent['busy'] and now >= agent['_call_end']:
+                    agent['busy'] = False
 
-        # Loop through all available agents and determine if they're
-        # now on a call. If so, give them a new call within +-1s of
-        # their average handle time. For the classic data set, pick
-        # a random NPS in [1, 10]. For the neural data set, inference
-        # a random route and provide that NPS. Update the average
-        # NPS for this particular agent, and increase total NPS/calls
-        # for each data set. TODO
+                    # Check to see if the agent got a new call
+                    r = RAND.randint(0, 101)
+                    if r >= config.PERCENT_UTILIZATION:
+                        time_modifier = RAND.randint(-1, 2)
+                        call_time = agent['_avg_handle_time'] + time_modifier
 
-        # Loop through both data sets and update average NPS. TODO
-        pass
+                        agent['busy'] = True
+                        agent['_call_count'] += 1
+                        agent['_call_start'] = now
+                        agent['_call_end'] = now + timedelta(seconds=call_time)
+
+                        if dataset == 'neural':
+                            # TODO: generate random route (or read one from test data)
+                            # TODO: inference
+                            pass
+                        else:
+                            new_nps = RAND.randint(1, 11)
+
+                            agent['nps'] = new_nps
+                            agent['_total_nps'] += new_nps
+                            agent['_average_nps'] = agent['_total_nps'] / agent['_call_count']
+
+        # Calculate averages for each data set.
+        for dataset in ['classic', 'neural']:
+            combined_nps = 0
+            total_calls = 0
+
+            for agent in STATE[dataset]['agents']:
+                if agent['busy']:
+                    combined_nps += agent['nps']
+                    total_calls += agent['_call_count']
+
+            if total_calls > 0:
+                STATE[dataset]['totalCalls'] = total_calls
+                STATE[dataset]['averageNps'] = combined_nps / total_calls
