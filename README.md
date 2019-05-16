@@ -33,7 +33,7 @@ From the root of the project tree, run the following:
 
 ```bash
 $ docker build -t hackit .
-$ docker run hackit
+$ docker run -p 5000:5000 hackit
 ```
 
 If you need to get to a local shell, run the container with `docker run --interactive --tty hackit bash`.
