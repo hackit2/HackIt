@@ -4,8 +4,6 @@ from pymongo import MongoClient
 from random import Random
 from WebApi import config
 
-# TODO: daemonize. Perhaps https://github.com/thesharp/daemonize
-
 STATE_NAMES = ['classic', 'neural']
 STATE = {
     "classic": {
