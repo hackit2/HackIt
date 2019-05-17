@@ -4,18 +4,16 @@ from pymongo import MongoClient
 from random import Random
 from WebApi import config
 
-from pprint import pprint
-
-STATE_NAMES = ['classic']  # ['classic', 'neural']
+STATE_NAMES = ['classic', 'neural']
 STATE = {
     "classic": {
         "averageNps": 0,
         "agents": []
     },
-    #"neural": {
-    #    "averageNps": 0,
-    #    "agents": []
-    #},
+    "neural": {
+        "averageNps": 0,
+        "agents": []
+    },
     "totalCalls": 0,
     "totalNps": 0
 }
@@ -121,6 +119,7 @@ while True:
     # TODO: Remove
     if RAND.randint(0, 100) <= 10:
         retrieved_state = collection.find_one()
+        from pprint import pprint
         pprint(retrieved_state)
     from time import sleep
     sleep(1)
