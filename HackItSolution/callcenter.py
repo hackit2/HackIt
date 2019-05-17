@@ -8,14 +8,16 @@ STATE_NAMES = ['classic', 'neural']
 STATE = {
     "classic": {
         "averageNps": 0,
-        "agents": []
+        "agents": [],
+        "totalCalls": 0,
+        "totalNps": 0
     },
     "neural": {
         "averageNps": 0,
-        "agents": []
-    },
-    "totalCalls": 0,
-    "totalNps": 0
+        "agents": [],
+        "totalCalls": 0,
+        "totalNps": 0
+    }
 }
 ID = None
 RAND = Random()
@@ -71,27 +73,33 @@ while True:
         # Update the state and stats for each individual agent.
         for dataset in STATE_NAMES:
             for agent in STATE[dataset]['agents']:
+                # If an agent's call has ended, mark them as free
                 if agent['busy'] and now >= agent['_call_end']:
                     agent['busy'] = False
+                    agent['_call_start'] = None
+                    agent['_call_end'] = None
+                    agent['_call_duration'] = None
 
                 if not agent['busy']:
                     # Check to see if the agent got a new call
-                    r = RAND.randint(0, 101)
+                    r = RAND.randint(0, 100)
+
                     if r <= config.PERCENT_UTILIZATION:
-                        time_modifier = RAND.randint(-1, 2)
+                        time_modifier = RAND.randint(-1, 1)
                         call_time = agent['_avg_handle_time'] + time_modifier
 
                         agent['busy'] = True
                         agent['_call_count'] += 1
                         agent['_call_start'] = now
                         agent['_call_end'] = now + timedelta(seconds=call_time)
+                        agent['_call_duration'] = call_time
 
-                        if dataset == 'neural':
+                        if dataset is 'neural':
                             # TODO: generate random route (or read one from test data)
                             # TODO: inference
                             pass
                         else:
-                            new_nps = RAND.randint(1, 11)
+                            new_nps = RAND.randint(1, 10)
 
                             agent['nps'] = new_nps
                             agent['_total_nps'] += new_nps
@@ -99,17 +107,18 @@ while True:
 
         # Calculate averages for each data set.
         for dataset in STATE_NAMES:
-            combined_nps = 0
+            total_nps = 0
             total_calls = 0
 
             for agent in STATE[dataset]['agents']:
                 if agent['busy'] and agent['nps'] is not None:
-                    combined_nps += agent['nps']
+                    total_nps += agent['_total_nps']
                     total_calls += agent['_call_count']
 
             if total_calls > 0:
                 STATE[dataset]['totalCalls'] = total_calls
-                STATE[dataset]['averageNps'] = combined_nps / total_calls
+                STATE[dataset]['totalNps'] = total_nps
+                STATE[dataset]['averageNps'] = total_nps / total_calls
 
         # Update the state in the database
         result = collection.replace_one({'_id': ID}, STATE, True)
