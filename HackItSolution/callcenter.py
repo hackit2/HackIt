@@ -4,15 +4,18 @@ from pymongo import MongoClient
 from random import Random
 from WebApi import config
 
+from pprint import pprint
+
+STATE_NAMES = ['classic']  # ['classic', 'neural']
 STATE = {
     "classic": {
         "averageNps": 0,
         "agents": []
     },
-    "neural": {
-        "averageNps": 0,
-        "agents": []
-    },
+    #"neural": {
+    #    "averageNps": 0,
+    #    "agents": []
+    #},
     "totalCalls": 0,
     "totalNps": 0
 }
@@ -51,8 +54,8 @@ while True:
                 '_call_end': None,
                 '_avg_handle_time': RAND.randint(2, 7)
             }
-            STATE['classic']['agents'].append(agent)
-            STATE['neural']['agents'].append(agent)
+            for dataset in STATE_NAMES:
+                STATE[dataset]['agents'].append(agent)
 
         result = collection.insert_one(STATE)
         ID = result.inserted_id
@@ -68,14 +71,15 @@ while True:
         now = datetime.utcnow()
 
         # Update the state and stats for each individual agent.
-        for dataset in ['classic', 'neural']:
+        for dataset in STATE_NAMES:
             for agent in STATE[dataset]['agents']:
                 if agent['busy'] and now >= agent['_call_end']:
                     agent['busy'] = False
 
+                if not agent['busy']:
                     # Check to see if the agent got a new call
                     r = RAND.randint(0, 101)
-                    if r >= config.PERCENT_UTILIZATION:
+                    if r <= config.PERCENT_UTILIZATION:
                         time_modifier = RAND.randint(-1, 2)
                         call_time = agent['_avg_handle_time'] + time_modifier
 
@@ -96,15 +100,27 @@ while True:
                             agent['_average_nps'] = agent['_total_nps'] / agent['_call_count']
 
         # Calculate averages for each data set.
-        for dataset in ['classic', 'neural']:
+        for dataset in STATE_NAMES:
             combined_nps = 0
             total_calls = 0
 
             for agent in STATE[dataset]['agents']:
-                if agent['busy']:
+                if agent['busy'] and agent['nps'] is not None:
                     combined_nps += agent['nps']
                     total_calls += agent['_call_count']
 
             if total_calls > 0:
                 STATE[dataset]['totalCalls'] = total_calls
                 STATE[dataset]['averageNps'] = combined_nps / total_calls
+
+        # Update the state in the database
+        result = collection.replace_one({'_id': ID}, STATE, True)
+        if result.upserted_id is not None:
+            ID = result.upserted_id
+
+    # TODO: Remove
+    if RAND.randint(0, 100) <= 10:
+        retrieved_state = collection.find_one()
+        pprint(retrieved_state)
+    from time import sleep
+    sleep(1)
