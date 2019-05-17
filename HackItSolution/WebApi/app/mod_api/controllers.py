@@ -1,6 +1,6 @@
-from flask import Blueprint, request, render_template, flash, \
-        g, session, redirect, url_for, current_app as app
-from app.mod_api.models import Agent, CallCenter
+from flask import Blueprint, current_app as app
+from pymongo import MongoClient
+import json
 
 
 mod_api = Blueprint('api', __name__, url_prefix='/api')
@@ -8,33 +8,19 @@ mod_api = Blueprint('api', __name__, url_prefix='/api')
 
 @mod_api.route('/', methods=['GET'])
 def index():
-    return 'You have hit the API. You are visitor #{cnt}'
+    return 'Welcome to the API.'
 
 
-@mod_api.route('/agent/<int:id>', methods=['GET', 'POST'])
-def get_agent(id):
-    from random import Random
-    r = Random()
-
-    chance = app.config['PERCENT_UTILIZATION']
-    will_ring = r.randrange(0, 101)
-
-    agent = Agent(id, r.randrange(3, 10))
-    if will_ring <= chance:
-        agent.ring()
-
-    return str(agent)
+@mod_api.route('/state', methods=['GET', 'POST'])
+def state():
+    client = MongoClient('mongodb://localhost:27017')
+    collection = client.hackit2.state
+    retrieved_state = collection.find_one()
+    return json.dumps(retrieved_state)
 
 
-def get_neural_cc():
-    if 'neural_cc' not in g:
-        g.neural_cc = CallCenter()
-
-    return g.neural_cc
-
-
-def get_classic_cc():
-    if 'classic_cc' not in g:
-        g.classic_cc = CallCenter()
-
-    return g.classic_cc
+@mod_api.route('/state/reset', methods=['POST'])
+def reset_state():
+    client = MongoClient('mongodb://localhost:27017')
+    collection = client.hackit2.state
+    collection.delete_many({})
