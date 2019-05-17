@@ -116,10 +116,10 @@ while True:
         if result.upserted_id is not None:
             ID = result.upserted_id
 
-    # TODO: Remove
-    if RAND.randint(0, 100) <= 10:
-        retrieved_state = collection.find_one()
-        from pprint import pprint
-        pprint(retrieved_state)
+    # # TODO: Remove
+    # if RAND.randint(0, 100) <= 10:
+    #     retrieved_state = collection.find_one()
+    #     from pprint import pprint
+    #     pprint(retrieved_state)
     from time import sleep
     sleep(1)
