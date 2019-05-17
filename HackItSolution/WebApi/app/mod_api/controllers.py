@@ -1,6 +1,6 @@
 from flask import Blueprint, current_app as app
 from pymongo import MongoClient
-import json
+from bson.json_util import dumps
 
 
 mod_api = Blueprint('api', __name__, url_prefix='/api')
@@ -16,7 +16,7 @@ def state():
     client = MongoClient('mongodb://localhost:27017')
     collection = client.hackit2.state
     retrieved_state = collection.find_one()
-    return json.dumps(retrieved_state)
+    return dumps(retrieved_state)
 
 
 @mod_api.route('/state/reset', methods=['POST'])
