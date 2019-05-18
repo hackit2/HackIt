@@ -1,0 +1,307 @@
+/*   CSS RESET  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  APP CSS  */
+
+body {
+	background:#eee;
+}
+
+.container {
+	padding:30px 60px 60px;
+}
+
+header {
+	padding:0 0 15px;
+	margin:0 0 30px;
+	border-bottom:solid 1px #ccc;
+	position:relative;
+}
+
+	header h1 {
+		font-size:30px;
+		line-height:1;
+		color:#08415F;
+		margin:0 0 10px;
+		font-family: 'Roboto', sans-serif;
+		font-weight:700;
+	}
+
+	header h2 {
+		font-size:18px;
+		line-height:1;
+		color:#7b7b7b;
+		margin:0 0 30px;
+		font-family: 'Roboto', sans-serif;
+		font-weight:300;
+	}
+
+	header button {
+		display:inline-block;
+		background:#fff;
+		border:solid 1px #eee;
+		position:absolute;
+		top:0;
+		right:0;
+		padding:5px;
+		border-radius:3px;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	}
+
+		header .extras {}
+
+			header .extras label {
+				display:flex;
+				flex-direction: row;
+				flex-wrap:nowrap;
+				justify-content: flex-start;
+				align-content: stretch;
+				align-items: stretch;
+			}
+
+				header .extras label span {
+					display:block;
+					padding:15px;
+					margin:0 15px 0 0;
+					border-radius:3px;
+					box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+					background:#fff;
+					border:solid 1px #eee;
+					box-sizing: border-box;
+					position: relative;
+				}
+
+					header .extras label span::before {
+						transition: ease all 300ms;
+						opacity:0;
+
+						content:'';
+						background:#08415F;
+						position:absolute;
+						top:7.5px;
+						left:6.5px;
+						padding:7.5px;
+						border-radius:3px;
+						box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+						z-index:2;
+					}
+
+					header .extras label span.clicked::before {
+						opacity:1;
+					}
+
+				header .extras label p {
+					font-family: 'Roboto', sans-serif;
+					font-weight:500;
+					font-size:14px;
+					line-height:1;
+					margin:9px 0 0;
+					color:#999;
+				}
+
+	#demo {
+		display:flex;
+		flex-direction: row;
+		flex-wrap:nowrap;
+		justify-content: space-between;
+		align-content: stretech;
+		align-items: stretch;
+	}
+
+		#demo h3 {
+			font-size:14px;
+			line-height:1;
+			color:#666;
+			margin:0 0 15px 15px;
+			font-family: 'Roboto', sans-serif;
+			font-weight:700;
+			text-transform: uppercase;
+			width:100%;
+		}
+
+	#demo > div {
+		width: calc(50% - 15px);
+		margin-left:-15px;
+		margin-right:-15px;
+
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		position:relative;
+	}
+
+		#demo .agent {
+			box-sizing: border-box;
+			margin:0 0 15px;
+			padding:0 15px;
+			width:25%;
+		}
+
+			#demo .agent > div {
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-flex-direction: row;
+				-ms-flex-direction: row;
+				flex-direction: row;
+				-webkit-flex-wrap: nowrap;
+				-ms-flex-wrap: nowrap;
+				flex-wrap: nowrap;
+				-webkit-justify-content: flex-start;
+				-ms-flex-pack: start;
+				justify-content: flex-start;
+				-webkit-align-content: stretch;
+				-ms-flex-line-pack: stretch;
+				align-content: stretch;
+				-webkit-align-items: stretch;
+				-ms-flex-align: stretch;
+				align-items: stretch;
+
+				background:#fff;
+				border-radius:5px;
+				overflow:hidden;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+			}
+
+				#demo .agent span {
+					transition:ease all 500ms;
+
+					width:50px;
+					text-align:center;
+					margin-right:15px;
+					padding:15px 15px 12px;
+					box-sizing:border-box;					
+					font-size:16px;
+					line-height:1;
+					color:#fff;
+					font-family: 'Roboto', sans-serif;
+					font-weight:700;
+					text-shadow:0px 1px 1px rgba(0,0,0,0.1);
+				}
+
+					#demo .agent[data-tag="green"] span {
+						background:#76BC43;
+					}
+
+					#demo .agent[data-tag="yellow"] span {
+						background:#FAA71A;
+					}
+
+					#demo .agent[data-tag="red"] span {
+						background:#F95B3F;
+					}
+
+				#demo .agent p {
+					margin:15px 0 0;
+					font-size:16px;
+					line-height:1;
+					color:#333;
+					font-family: 'Roboto', sans-serif;
+					font-weight:300;
+				}
+		
+		#statsContainer {
+			position:fixed !important;
+			bottom:-3px;
+
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex !important;
+			-webkit-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
+			-webkit-flex-wrap: nowrap;
+			-ms-flex-wrap: nowrap;
+			flex-wrap: nowrap !important;
+			-webkit-justify-content: flex-start;
+			-ms-flex-pack: start;
+			justify-content: space-between;
+			-webkit-align-content: stretch;
+			-ms-flex-line-pack: stretch;
+			align-content: stretch;
+			-webkit-align-items: stretch;
+			-ms-flex-align: stretch;
+			align-items: stretch;
+			width: calc(100% - 120px) !important;
+			margin-left:0 !important;
+			margin-right:0 !important;
+		}
+
+		#statsContainer > div {
+			width: calc(50% - 15px);
+			margin-left:-15px;
+			margin-right:-15px;
+			text-align:center;
+		}
+
+		#statsContainer .stats {
+			box-shadow:0px 1px 3px rgba(0,0,0,0.1);
+			background:#fff;
+			border-radius:5px 5px 0 0;
+			overflow:hidden;
+			display:inline-block;
+		}
+
+			#demo .stats span {
+				display:inline-block;
+				padding:15px 15px 12px;
+				box-sizing:border-box;
+				font-size:16px;
+				line-height:1;
+				color:#666;
+				font-family: 'Roboto', sans-serif;
+				font-weight:700;
+				text-shadow:0px 1px 1px rgba(0,0,0,0.1);
+			}
+
+				#demo .stats span:first-of-type {
+					background:#00A9EE;
+					border-radius:5px 0 0 0;
+					color:#fff;
+				}
+
+				#demo .stats span:last-of-type {
+					border-radius:0 5px 0 0;
+				}

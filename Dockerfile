@@ -22,6 +22,11 @@ RUN pip3 install -r /var/www/requirements.txt
 # Install some utilities for interactive usage
 RUN yum -y install less mongodb which
 
+# Start Node
+RUN yum install -y gcc-c++ make
+RUN curl -sL https://rpm.nodesource.com/setup_12.x | bash -
+RUN yum install nodejs
+
 # Start all of the servers
 COPY bin/hackit.sh /usr/local/bin/hackit.sh
 RUN chmod +x /usr/local/bin/hackit.sh
