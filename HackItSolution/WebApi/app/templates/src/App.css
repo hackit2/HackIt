@@ -221,17 +221,21 @@ header {
 					text-shadow:0px 1px 1px rgba(0,0,0,0.1);
 				}
 
-					#demo .agent[data-tag="green"] span {
-						background:#76BC43;
-					}
+				#demo .agent[data-tag="green"] span {
+					background:#50BC00;
+				}
 
-					#demo .agent[data-tag="yellow"] span {
-						background:#FAA71A;
-					}
+				#demo .agent[data-tag="yellow"] span {
+					background:#FFA100;
+				}
 
-					#demo .agent[data-tag="red"] span {
-						background:#F95B3F;
-					}
+				#demo .agent[data-tag="red"] span {
+					background:#FF2800;
+				}
+
+				#demo .agent[data-status="notBusy"] span {
+					background:#ccc !important;
+				}
 
 				#demo .agent p {
 					margin:15px 0 0;
