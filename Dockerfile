@@ -8,6 +8,10 @@ RUN yum -y install epel-release
 RUN yum -y install python36 python36-pip
 RUN pip3 install -U pip
 
+# Install nginx
+RUN yum -y install nginx
+COPY etc/nginx.conf /etc/nginx/nginx.conf
+
 # Install, configure, and start Mongo
 RUN yum -y install mongodb-server
 COPY etc/mongod.conf /etc/mongod.conf
@@ -20,12 +24,18 @@ COPY HackItSolution/ /var/www
 RUN pip3 install -r /var/www/requirements.txt
 
 # Install some utilities for interactive usage
-RUN yum -y install less mongodb which
+RUN yum -y install less mongodb which vim tmux
+
+# Make tmux great again
+COPY etc/tmux.conf /root/.tmux.conf
 
 # Start Node
-RUN yum install -y gcc-c++ make
+RUN yum -y install gcc-c++ make
 RUN curl -sL https://rpm.nodesource.com/setup_12.x | bash -
-RUN yum install nodejs
+RUN yum -y install nodejs
+
+# Install the dependencies for the frontend application
+RUN cd /var/www/WebApi/app/templates && npm install
 
 # Start all of the servers
 COPY bin/hackit.sh /usr/local/bin/hackit.sh
@@ -33,5 +43,8 @@ RUN chmod +x /usr/local/bin/hackit.sh
 CMD ["/usr/local/bin/hackit.sh"]
 
 # Let the adoring public see our HackIT stuff
+EXPOSE 80/tcp
+EXPOSE 443/tcp
+EXPOSE 3000/tcp
 EXPOSE 5000/tcp
 EXPOSE 27017/tcp
