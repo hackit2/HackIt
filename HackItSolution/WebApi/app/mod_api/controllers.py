@@ -1,6 +1,7 @@
-from flask import Blueprint, current_app as app
-from pymongo import MongoClient
 from bson.json_util import dumps
+from flask import Blueprint, current_app as app
+from flask_cors import cross_origin
+from pymongo import MongoClient
 
 
 mod_api = Blueprint('api', __name__, url_prefix='/api')
@@ -12,6 +13,7 @@ def index():
 
 
 @mod_api.route('/state', methods=['GET', 'POST'])
+@cross_origin()
 def state():
     client = MongoClient('mongodb://localhost:27017')
     collection = client.hackit2.state
