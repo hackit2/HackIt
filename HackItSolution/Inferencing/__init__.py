@@ -6,7 +6,7 @@ import numpy as np
 
 class Inferencing:
     def __init__(self):
-        self.model = keras.models.load_model('Networks\\RoutingEngine1Mrecords25epoch96percent.NN')
+        self.model = keras.models.load_model('Networks/RoutingEngine1Mrecords25epoch96percent.NN')
 
     def get_agent_predictions(self, ivr_node):
         predictions = {}
