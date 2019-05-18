@@ -9,7 +9,7 @@ from WebApi import config
 STATE_NAMES = ['classic', 'neural']
 STATE = {
     "classic": {
-        "agents": [],
+        "agents": {},
         "averageNps": 0,
         "totalCalls": 0,
         "totalNps": 0
@@ -102,8 +102,7 @@ def generate_calls(now, cc, cc_name):
 
                 # We've been working out of shuffled_agents, so no changes have made
                 # their way back into STATE. Fix that.
-                idx = get_agent_index(new_agent, cc)
-                cc['agents'][idx] = new_agent
+                cc['agents'][new_agent['id']] = new_agent
 
     return cc
 
@@ -111,7 +110,7 @@ def generate_calls(now, cc, cc_name):
 def main():
     mongo_id = None
     cnt = 0
-    while cnt < 10000:
+    while cnt < 1000:
         cnt += 1
     # while True:
         # Ensure we have _a_ document in the database. It's better the
@@ -120,9 +119,9 @@ def main():
         count = collection.count_documents({})
         if count == 0:
             # Populate agents
-            for i in range(1, config.AGENT_COUNT + 1):
+            for i in range(1, config.AGENT_COUNT):
                 agent = {
-                    'id': None,
+                    'id': f'A{str(i).zfill(2)}',
                     'busy': False,
                     'nps': None,
                     '_average_nps': 0,
@@ -133,12 +132,7 @@ def main():
                     '_avg_handle_time': RAND.randint(2, 7)
                 }
                 for dataset in STATE_NAMES:
-                    if dataset is 'neural':
-                        agent['id'] = f'A{str(i).zfill(2)}'
-                        STATE[dataset][agent['id']] = agent
-                    else:
-                        agent['id'] = i
-                        STATE[dataset]['agents'].append(agent)
+                    STATE[dataset]['agents'][agent['id']] = agent
 
             result = collection.insert_one(STATE)
             mongo_id = result.inserted_id
@@ -147,8 +141,9 @@ def main():
             for dataset in STATE_NAMES:
                 now = datetime.utcnow()
 
+                #print(STATE[dataset]['agents'])  # TODO
                 # Free up agents who are no longer on a call
-                for agent in STATE[dataset]['agents']:
+                for idx, agent in enumerate(STATE[dataset]['agents']):
                     # If an agent's call has ended, mark them as free
                     if agent['busy'] and now >= agent['_call_end']:
                         agent['busy'] = False
@@ -163,7 +158,7 @@ def main():
                 total_nps = 0
                 total_calls = 0
 
-                for agent in STATE[dataset]['agents']:
+                for idx, agent in enumerate(STATE[dataset]['agents']):
                     if agent['busy'] and agent['nps'] is not None:
                         total_nps += int(agent['_total_nps'])
                         total_calls += int(agent['_call_count'])
