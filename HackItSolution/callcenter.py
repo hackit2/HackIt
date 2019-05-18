@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import Inferencing
+from collections import OrderedDict
 from datetime import datetime, timedelta
 from operator import itemgetter
 from pymongo import MongoClient
@@ -44,7 +45,7 @@ def get_agent_index(agent, cc):
 
 
 def generate_calls(now, cc, cc_name):
-    busy_agents = [a for a in cc['agents'] if a['busy']]
+    busy_agents = [a for a in cc['agents'] if cc['agents'][a]['busy']]
     busy_agent_count = len(busy_agents)
     expected_busy_agents = int((config.PERCENT_UTILIZATION / 100) * len(cc['agents']))
     needed_agents = expected_busy_agents - busy_agent_count
@@ -79,10 +80,15 @@ def generate_calls(now, cc, cc_name):
                 cc['agents'][best_agent]['_total_nps'] += new_nps
                 cc['agents'][best_agent]['_average_nps'] = cc['agents'][best_agent]['_total_nps'] / cc['agents'][best_agent]['_call_count']
         else:
-            shuffled_agents = cc['agents']
-            shuffle(shuffled_agents)
+            agent_id_list = list(cc['agents'].items())
+            shuffle(agent_id_list)
+            shuffled_agents = OrderedDict(agent_id_list)
 
-            free_agents = [a for a in shuffled_agents if not a['busy']]
+            free_agents = []
+            for idx, agent_id in enumerate(shuffled_agents):
+                if not shuffled_agents[agent_id]['busy']:
+                    free_agents.append(cc['agents'][agent_id])
+
             new_agents = free_agents[:needed_agents]
 
             for new_agent in new_agents:
@@ -109,10 +115,7 @@ def generate_calls(now, cc, cc_name):
 
 def main():
     mongo_id = None
-    cnt = 0
-    while cnt < 1000:
-        cnt += 1
-    # while True:
+    while True:
         # Ensure we have _a_ document in the database. It's better the
         # frontend receive something empty matching our structure than
         # nothingness/error.
@@ -141,9 +144,10 @@ def main():
             for dataset in STATE_NAMES:
                 now = datetime.utcnow()
 
-                #print(STATE[dataset]['agents'])  # TODO
                 # Free up agents who are no longer on a call
-                for idx, agent in enumerate(STATE[dataset]['agents']):
+                for idx, agent_id in enumerate(STATE[dataset]['agents']):
+                    agent = STATE[dataset]['agents'][agent_id]
+
                     # If an agent's call has ended, mark them as free
                     if agent['busy'] and now >= agent['_call_end']:
                         agent['busy'] = False
@@ -158,7 +162,9 @@ def main():
                 total_nps = 0
                 total_calls = 0
 
-                for idx, agent in enumerate(STATE[dataset]['agents']):
+                for idx, agent_id in enumerate(STATE[dataset]['agents']):
+                    agent = STATE[dataset]['agents'][agent_id]
+
                     if agent['busy'] and agent['nps'] is not None:
                         total_nps += int(agent['_total_nps'])
                         total_calls += int(agent['_call_count'])
@@ -175,5 +181,3 @@ def main():
 
 
 main()
-
-print(STATE)
