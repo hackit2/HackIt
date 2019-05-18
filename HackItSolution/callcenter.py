@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+import Inferencing
 from datetime import datetime, timedelta
+from operator import itemgetter
 from pymongo import MongoClient
 from random import Random, shuffle
 from WebApi import config
@@ -7,14 +9,14 @@ from WebApi import config
 STATE_NAMES = ['classic', 'neural']
 STATE = {
     "classic": {
-        "averageNps": 0,
         "agents": [],
+        "averageNps": 0,
         "totalCalls": 0,
         "totalNps": 0
     },
     "neural": {
+        "agents": {},
         "averageNps": 0,
-        "agents": [],
         "totalCalls": 0,
         "totalNps": 0
     }
@@ -25,6 +27,7 @@ RAND = Random()
 print('Starting call centers.')
 print('Configuration:')
 print(f'      Agents:       {config.AGENT_COUNT}')
+print(f'      IVR Nodes:    {config.IVR_NODE_COUNT}')
 print(f'      Utilization:  {config.PERCENT_UTILIZATION}%')
 
 # Connect to the database
@@ -48,7 +51,33 @@ def generate_calls(now, cc, cc_name):
 
     if needed_agents > 0:
         if cc_name is 'neural':
-            pass
+            dnn = Inferencing.Inferencing()
+            ivr_endpoint = RAND.randint(1, config.IVR_NODE_COUNT)
+
+            for i in range(needed_agents):
+                inferences = dnn.get_agent_predictions(f'N{str(ivr_endpoint)}')
+                sorted(inferences)
+
+                busy_agents = [a for a in cc['agents'] if a['busy']]
+                for agent in busy_agents:
+                    del inferences[agent['id']]
+
+                sorted_inferences = sorted(inferences.items(), key=itemgetter(1))
+                best_agent = sorted_inferences[0][0]
+                new_nps = inferences[best_agent]
+
+                time_modifier = RAND.randint(-1, 1)
+                call_time = cc['agents'][best_agent]['_avg_handle_time'] + time_modifier
+
+                cc['agents'][best_agent]['busy'] = True
+                cc['agents'][best_agent]['_call_count'] += 1
+                cc['agents'][best_agent]['_call_start'] = now
+                cc['agents'][best_agent]['_call_end'] = now + timedelta(seconds=call_time)
+                cc['agents'][best_agent]['_call_duration'] = call_time
+
+                cc['agents'][best_agent]['nps'] = new_nps
+                cc['agents'][best_agent]['_total_nps'] += new_nps
+                cc['agents'][best_agent]['_average_nps'] = cc['agents'][best_agent]['_total_nps'] / cc['agents'][best_agent]['_call_count']
         else:
             shuffled_agents = cc['agents']
             shuffle(shuffled_agents)
@@ -81,10 +110,10 @@ def generate_calls(now, cc, cc_name):
 
 def main():
     mongo_id = None
-    # cnt = 0
-    # while cnt < 10000:
-    #     cnt += 1
-    while True:
+    cnt = 0
+    while cnt < 10000:
+        cnt += 1
+    # while True:
         # Ensure we have _a_ document in the database. It's better the
         # frontend receive something empty matching our structure than
         # nothingness/error.
@@ -93,7 +122,7 @@ def main():
             # Populate agents
             for i in range(1, config.AGENT_COUNT + 1):
                 agent = {
-                    'id': i,
+                    'id': None,
                     'busy': False,
                     'nps': None,
                     '_average_nps': 0,
@@ -104,7 +133,12 @@ def main():
                     '_avg_handle_time': RAND.randint(2, 7)
                 }
                 for dataset in STATE_NAMES:
-                    STATE[dataset]['agents'].append(agent)
+                    if dataset is 'neural':
+                        agent['id'] = f'A{str(i).zfill(2)}'
+                        STATE[dataset][agent['id']] = agent
+                    else:
+                        agent['id'] = i
+                        STATE[dataset]['agents'].append(agent)
 
             result = collection.insert_one(STATE)
             mongo_id = result.inserted_id
@@ -146,3 +180,5 @@ def main():
 
 
 main()
+
+print(STATE)
