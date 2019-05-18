@@ -59,13 +59,16 @@ def generate_calls(now, cc, cc_name):
                 inferences = dnn.get_agent_predictions(f'N{str(ivr_endpoint)}')
                 sorted(inferences)
 
-                busy_agents = [a for a in cc['agents'] if a['busy']]
+                busy_agents = []
+                for idx, agent_id in enumerate(cc['agents']):
+                    if not cc['agents'][agent_id]['busy']:
+                        busy_agents.append(cc['agents'][agent_id])
                 for agent in busy_agents:
                     del inferences[agent['id']]
 
                 sorted_inferences = sorted(inferences.items(), key=itemgetter(1))
                 best_agent = sorted_inferences[0][0]
-                new_nps = inferences[best_agent]
+                new_nps = int(inferences[best_agent])
 
                 time_modifier = RAND.randint(-1, 1)
                 call_time = cc['agents'][best_agent]['_avg_handle_time'] + time_modifier
