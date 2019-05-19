@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from operator import itemgetter
 from pymongo import MongoClient
 from random import Random, shuffle
+from time import sleep
 from WebApi import config
 
 STATE_NAMES = ['classic', 'neural']
@@ -181,6 +182,8 @@ def main():
             result = collection.replace_one({'_id': mongo_id}, STATE, True)
             if result.upserted_id is not None:
                 mongo_id = result.upserted_id
+
+    sleep(1)
 
 
 main()
