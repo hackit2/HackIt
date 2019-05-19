@@ -61,7 +61,7 @@ while True:
 
     routing_collection = []
     sleep(1)
-    for x in range(1, 40):
+    for x in range(1, 41):
         random_routed_call = {}
         random_routed_call['IVRNode'] = random_ivr_node = random.randint(1, 40)
         inference_results = I.get_agent_predictions('N' + str(random_ivr_node))
