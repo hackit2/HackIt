@@ -85,12 +85,20 @@ class App extends React.Component {
       items: [],
       isLoaded: false,
     }
+
+    const toSortorNotToSort = (obj,clicked) => {
+      if ( clicked === true ) {
+        obj.sort( (a,b) => a.nps > b.nps ).map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
+      } else {
+        obj.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
+      }
+    }
   }
   
   componentDidMount() {
     
     const callThisApi = () => {
-      fetch('http://localhost:5000/api/state')
+      fetch('http://http://hackit.cstairouting.com//api/state')
           .then(res => res.json())
           .then(json => {
             this.setState({
@@ -100,6 +108,14 @@ class App extends React.Component {
             })
           });
     }
+
+    // const toSortorNotToSort = (obj,clicked) => {
+    //   if ( clicked === true ) {
+    //     obj.sort( (a,b) => a.nps > b.nps ).map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
+    //   } else {
+    //     obj.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
+    //   }
+    // }
 
     callThisApi();
 
@@ -130,18 +146,12 @@ class App extends React.Component {
 
               <div id="nn">
                 <h3>Neural Network Routing</h3>
-                {
-                  if ( clicked === true ) {
-                    nn.sort( (a,b) => a.nps > b.nps ).map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
-                  } else {
-                    nn.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
-                  }
-                }
+                {this.toSortorNotToSort(nn)}
               </div>
 
               <div id="traditional">
                 <h3>Traditional Routing</h3>
-                {classic.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} />)}
+                {this.toSortorNotToSort(classic)}
               </div>
 
               <div id="statsContainer">
