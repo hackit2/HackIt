@@ -61,10 +61,16 @@ const Header = (props) => {
 
           
           <Reset />
-          
+          <Improvement per={props.percImproved} />
           {/* <Supporting txt="Sort by Score" /> */}
       </header>
   );
+}
+
+const Improvement = (props) => {
+    return (
+      <h4>Neural Network Percent Improvement: <span>{props.per}%</span></h4>
+    );
 }
 
 // class Supporting extends React.Component {
@@ -180,7 +186,7 @@ class App extends React.Component {
 
       return (
         <div className='container'>
-            <Header title=".Predict()" subtitle="Neural Network vs. Traditional Call Routing" />
+            <Header title=".Predict()" subtitle="Neural Network vs. Traditional Call Routing" percImproved={fromJson.nn.percentImprovement} />
 
             <div id="demo">
 
