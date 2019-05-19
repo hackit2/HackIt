@@ -289,7 +289,7 @@ header {
 		}
 
 			#demo .stats span {
-				display:inline-block;
+				display:inline-flex;
 				padding:15px 15px 12px;
 				box-sizing:border-box;
 				font-size:16px;
@@ -308,4 +308,11 @@ header {
 
 				#demo .stats span:last-of-type {
 					border-radius:0 5px 0 0;
+					border-left:solid 1px #ccc;
 				}
+
+			#demo .stats p {
+    			font-size: 14px;
+    			font-weight: 300;
+    			margin: 0 0 0 10px;
+			}

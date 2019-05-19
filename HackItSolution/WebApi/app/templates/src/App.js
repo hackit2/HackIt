@@ -13,10 +13,23 @@ import './App.css';
 //   return json;
 // }
 
-const Reset = () => {
-  return (
-    <button onClick={console.log('reset')} id="resetBtn"><i className="fas fa-redo-alt"></i></button>
-  );
+class Reset extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  resetFn() {
+    console.log('clicked');
+    
+    fetch('http://hackit.cstairouting.com/api/state/reset', {
+      method: 'POST'
+    });
+  }
+  render() {
+    return (
+      <button id="resetBtn" onClick={this.resetFn}><i className="fas fa-redo-alt"></i></button>
+    );
+  }
 }
 
 const Agent = (props) => {
@@ -77,9 +90,9 @@ const Header = (props) => {
 const Stats = (props) => {
   return (
     <div className="stats">
-      <span>{props.average}</span>
-      <span>{props.total}</span>
-      <span>{props.calls}</span>
+      <span>{props.average}<p>Avg. NPS</p></span>
+      <span>{props.total}<p>Total NPS</p></span>
+      <span>{props.calls}<p>Total Calls</p></span>
     </div>
   );
 }
@@ -118,16 +131,20 @@ class App extends React.Component {
   }
   
   componentDidMount() {
+
     let host = window.location.protocol + "//" + window.location.host.replace("localhost:3000","localhost:5000")
     const callThisApi = () => {
+      
       fetch(host+'/api/state')
           .then(res => res.json())
           .then(json => {
-            this.setState({
-              isLoaded: true,
-              items: json,
+            if (json !== null) {
+              this.setState({
+                isLoaded: true,
+                items: json,
 
-            })
+              })
+            }
           });
     }
 
@@ -141,7 +158,15 @@ class App extends React.Component {
     var fromJson = {};
     
     if ( !isLoaded ) {
-      return <div>Loading...</div>;
+      return (
+        <div className='container'>
+            <Header title=".Predict()" subtitle="Neural Network vs. Traditional Call Routing" />
+
+            <div id="demo">
+              <div>Loading...</div>;
+            </div>
+        </div>
+      )
     }
 
     else {
@@ -153,7 +178,7 @@ class App extends React.Component {
 
       return (
         <div className='container'>
-            <Header title="Call Routing" subtitle="Neural Network vs. Traditional" />
+            <Header title=".Predict()" subtitle="Neural Network vs. Traditional Call Routing" />
 
             <div id="demo">
 
