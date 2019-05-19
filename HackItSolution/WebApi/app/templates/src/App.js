@@ -22,7 +22,7 @@ const Reset = () => {
 const Agent = (props) => {
   var tag = '';
 
-  if (props.nps <= 6) {
+  if (props.nps <= 5) {
     tag = 'red';
   } else if (props.nps > 7) {
     tag = 'green';
