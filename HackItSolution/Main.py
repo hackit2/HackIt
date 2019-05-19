@@ -5,7 +5,7 @@ import operator
 I = Inferencing.Inferencing()
 
 routing_collection = []
-for x in range(1, 40):
+for x in range(1, 1000):
     random_routed_call = {}
     random_routed_call['IVRNode'] = random_ivr_node = random.randint(1, 40)
     inference_results = I.get_agent_predictions('N' + str(random_ivr_node))
@@ -30,4 +30,4 @@ for call in routing_collection:
 
 average_nps_nn_routing = round(average_nps_nn_routing / len(routing_collection), 2)
 
-print('For 40 random calls, Average NN Routing NPS is {} and Classic Routing NPS is {}'.format(average_nps_nn_routing, average_nps_classic_routing))
+print('For 1000 random calls, Average NN Routing NPS is {} and Classic Routing NPS is {}'.format(average_nps_nn_routing, average_nps_classic_routing))
