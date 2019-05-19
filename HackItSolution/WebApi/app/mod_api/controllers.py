@@ -16,6 +16,7 @@ def index():
 @cross_origin(support_credentials=True)
 def state():
     client = MongoClient('mongodb://localhost:27017')
+    response.headers.add('Access-Control-Allow-Origin', '*')
     collection = client.hackit2.state
     retrieved_state = collection.find_one()
     return dumps(retrieved_state)

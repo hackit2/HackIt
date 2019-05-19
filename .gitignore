@@ -318,3 +318,5 @@ HackItSolution/Data/*.csv
 .HackItSolution/Data/*.csv
 !.HackItSolution/Data/.gitkeep 
 !HackItSolution/Data/.gitkeep
+
+HackItSolution/WebApi/app/templates/node_modules
