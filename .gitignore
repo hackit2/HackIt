@@ -299,6 +299,7 @@ $RECYCLE.BIN/
 
 
 # IDE stuffs
+.idea/other.xml
 .idea/workspace.xml
 .vs/
 
