@@ -43,6 +43,22 @@ collection.delete_many({})
 I = Inferencing.Inferencing()
 
 while True:
+    STATE = {
+        "classic": {
+            "agents": [],
+            "averageNps": 0,
+            "totalCalls": 0,
+            "totalNps": 0
+        },
+        "neural": {
+            "agents": [],
+            "averageNps": 0,
+            "totalCalls": 0,
+            "totalNps": 0
+        }
+    }
+
+
     routing_collection = []
     sleep(1)
     for x in range(1, 40):
