@@ -109,6 +109,14 @@ while True:
             mongo_id = result.inserted_id
         else:
             result = collection.replace_one({'_id': mongo_id}, STATE, True)
+
+        if(STATE['classic']['totalCalls']>=1000):
+            STATE['classic']['totalCalls'] = 0
+            STATE['neural']['totalCalls'] = 0
+            STATE['neural']['totalNps'] = 0
+            STATE['neural']['averageNps'] = 0
+            STATE['classic']['totalNps'] = 0
+            STATE['classic']['averageNps'] = 0
     except Exception as e:
         print(e)
 
