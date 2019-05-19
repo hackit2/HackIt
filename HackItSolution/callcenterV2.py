@@ -15,13 +15,15 @@ STATE = {
         "agents": [],
         "averageNps": 0,
         "totalCalls": 0,
-        "totalNps": 0
+        "totalNps": 0,
+        "percentImprovement": 0
     },
     "neural": {
         "agents": [],
         "averageNps": 0,
         "totalCalls": 0,
-        "totalNps": 0
+        "totalNps": 0,
+        "percentImprovement": 0
     }
 }
 random = Random()
@@ -54,13 +56,15 @@ while True:
                 "agents": [],
                 "averageNps": 0,
                 "totalCalls": 0,
-                "totalNps": 0
+                "totalNps": 0,
+                "percentImprovement": 0
             },
             "neural": {
                 "agents": [],
                 "averageNps": 0,
                 "totalCalls": 0,
-                "totalNps": 0
+                "totalNps": 0,
+                "percentImprovement": 0
             }
         }
 
@@ -103,6 +107,10 @@ while True:
 
         STATE['classic']['totalCalls'] = int(total_calls + 40)
         STATE['neural']['totalCalls'] = int(total_calls + 40)
+
+        STATE['classic']['percentImprovement'] = round(((STATE['neural']['averageNps'] - STATE['classic']['averageNps'])/ STATE['neural']['averageNps']) *100, 2)
+        STATE['neural']['percentImprovement'] = round(((STATE['neural']['averageNps'] - STATE['classic']['averageNps'])/ STATE['neural']['averageNps']) *100,2)
+
         count = collection.count_documents({})
         if count == 0:
             result = collection.insert_one(STATE)
