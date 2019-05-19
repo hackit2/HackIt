@@ -23,9 +23,10 @@ def state():
     return dumps(retrieved_state)
 
 
-@mod_api.route('/state/reset', methods=['POST'])
+@mod_api.route('/state/reset', methods=['GET', 'POST'])
 @cross_origin(support_credentials=True)
 def reset_state():
     client = MongoClient('mongodb://localhost:27017')
     collection = client.hackit2.state
     collection.delete_many({})
+    return ''
