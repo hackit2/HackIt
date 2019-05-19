@@ -110,7 +110,7 @@ while True:
         else:
             result = collection.replace_one({'_id': mongo_id}, STATE, True)
 
-        if(STATE['classic']['totalCalls']>1000):
+        if(STATE['classic']['totalCalls']>=1000):
             STATE['classic']['totalCalls'] = 0
             STATE['neural']['totalCalls'] = 0
             STATE['neural']['totalNps'] = 0
