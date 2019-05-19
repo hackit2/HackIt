@@ -98,7 +98,7 @@ class App extends React.Component {
   componentDidMount() {
     
     const callThisApi = () => {
-      fetch('http://hackit.cstairouting.com//api/state')
+      fetch('http://hackit.cstairouting.com/api/state')
           .then(res => res.json())
           .then(json => {
             this.setState({
