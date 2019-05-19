@@ -13,7 +13,7 @@ def index():
 
 
 @mod_api.route('/state', methods=['GET', 'POST'])
-@cross_origin()
+@cross_origin(support_credentials=True)
 def state():
     client = MongoClient('mongodb://localhost:27017')
     collection = client.hackit2.state
@@ -22,6 +22,7 @@ def state():
 
 
 @mod_api.route('/state/reset', methods=['POST'])
+@cross_origin(support_credentials=True)
 def reset_state():
     client = MongoClient('mongodb://localhost:27017')
     collection = client.hackit2.state
