@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import {jsonData} from './data.js';
+// import {jsonData} from './data.js';
 
-const apiInvoker = (obj) => {
-  obj.setState.items = callApi();
-}
+// const apiInvoker = (obj) => {
+//   obj.setState.items = callApi();
+// }
 
-const callApi = async () => {
-  const response = await fetch('http://localhost:5000/api/state');
-  const json = await response.json();
+// const callApi = async () => {
+//   const response = await fetch('http://localhost:5000/api/state');
+//   const json = await response.json();
 
-  return json;
-}
+//   return json;
+// }
 
 const Reset = () => {
   return (
@@ -47,16 +47,20 @@ const Header = (props) => {
           <h2>{props.subtitle}</h2>
 
           <Reset />
-          <Supporting txt="Auto-Sort by Score" />
+          <Supporting txt="Sort by Score" />
       </header>
   );
 }
 
 const Supporting = (props) => {
+  const sortApi = () => {
+    var clicked = true;
+    App.render(clicked);
+  }
   return (
-    <div className="extras">
+    <div className="extras" onClick={this.sortApi}>
       <label id="autoSort">
-        <span className="checkbox"></span>
+        <span ref="checkboxSort" className="checkbox"></span>
         <p>{props.txt}</p>
       </label>
     </div>
@@ -84,8 +88,7 @@ class App extends React.Component {
   }
   
   componentDidMount() {
-    // alert('test');
-
+    
     const callThisApi = () => {
       fetch('http://localhost:5000/api/state')
           .then(res => res.json())
@@ -104,12 +107,10 @@ class App extends React.Component {
 
   }
 
-  render() {
-
+  render(clicked) {
     var { isLoaded,items } = this.state;
     var fromJson = {};
-    //var { items } = this.state;
-
+    
     if ( !isLoaded ) {
       return <div>Loading...</div>;
     }
@@ -118,48 +119,49 @@ class App extends React.Component {
       fromJson['classic'] = items.classic;
       fromJson['nn'] = items.neural;
 
+      var classic = fromJson.classic.agents;
+      var nn = fromJson.nn.agents;
+
       return (
         <div className='container'>
             <Header title="Call Routing" subtitle="Neural Network vs. Traditional" />
+
             <div id="demo">
+
               <div id="nn">
                 <h3>Neural Network Routing</h3>
-                {fromJson.classic.agents.map(e => 
-                    <Agent 
-                      num={e.id} 
-                      nps={e.nps} 
-                      busy={e.busy} 
-                    />    
-                )}
+                {
+                  if ( clicked === true ) {
+                    nn.sort( (a,b) => a.nps > b.nps ).map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
+                  } else {
+                    nn.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
+                  }
+                }
               </div>
 
               <div id="traditional">
-              <h3>Traditional Routing</h3>
-                {fromJson.nn.agents.map(e => 
-                    <Agent 
-                      num={e.id}
-                      nps={e.nps} 
-                      busy={e.busy}
-                    />    
-                )}
-
+                <h3>Traditional Routing</h3>
+                {classic.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} />)}
               </div>
 
               <div id="statsContainer">
+
                 <div>
-                <Stats 
-                  average={fromJson.classic.averageNps} 
-                  total={fromJson.classic.averageNps * fromJson.classic.totalCalls} 
-                  calls={fromJson.classic.totalCalls} 
-                />
+                  <Stats 
+                    average={nn.averageNps} 
+                    total={nn.averageNps * nn.totalCalls} 
+                    calls={nn.totalCalls} 
+                  />
                 </div>
+
                 <div>
-                <Stats 
-                  average={fromJson.classic.averageNps} 
-                  total={fromJson.classic.averageNps * fromJson.classic.totalCalls} 
-                  calls={fromJson.classic.totalCalls} 
-                />
+                  <Stats 
+                    average={classic.averageNps} 
+                    total={classic.averageNps * classic.totalCalls} 
+                    calls={classic.totalCalls} 
+                  />
                 </div>
+
               </div>
             </div>
         </div>
