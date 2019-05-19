@@ -47,25 +47,32 @@ const Header = (props) => {
           <h2>{props.subtitle}</h2>
 
           <Reset />
-          <Supporting txt="Sort by Score" />
+          {/* <Supporting txt="Sort by Score" /> */}
       </header>
   );
 }
 
-const Supporting = (props) => {
-  const sortApi = () => {
-    var clicked = true;
-    App.render(clicked);
-  }
-  return (
-    <div className="extras" onClick={this.sortApi}>
-      <label id="autoSort">
-        <span ref="checkboxSort" className="checkbox"></span>
-        <p>{props.txt}</p>
-      </label>
-    </div>
-  );
-}
+// class Supporting extends React.Component {
+//   constructor(props) {
+//     super(props)
+
+//     this.sortApi = () => {
+//       var clicked = true;
+//       App.render(clicked);
+//     }
+//   }
+  
+//   render(){
+//     return (
+//       <div className="extras" onClick={this.sortApi()}>
+//         <label id="autoSort">
+//           <span ref="checkboxSort" className="checkbox"></span>
+//           <p>{this.props.txt}</p>
+//         </label>
+//       </div>
+//     );
+//   }
+// }
 
 const Stats = (props) => {
   return (
@@ -73,6 +80,27 @@ const Stats = (props) => {
       <span>{props.average}</span>
       <span>{props.total}</span>
       <span>{props.calls}</span>
+    </div>
+  );
+}
+
+const Header3 = (props) => {
+  return (
+    <h3>{props.txt}</h3>
+  );
+}
+
+const ToSort = (props) => {
+  var sorted = props.obj;
+
+  if (props.status === true) {
+    sorted = props.obj.sort( (a,b) => a.nps > b.nps )
+  }
+
+  return (
+    <div id={props.id}>
+      <Header3 txt={props.txt} />
+      {sorted.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )}
     </div>
   );
 }
@@ -86,13 +114,7 @@ class App extends React.Component {
       isLoaded: false,
     }
 
-    const toSortorNotToSort = (obj,clicked) => {
-      if ( clicked === true ) {
-        obj.sort( (a,b) => a.nps > b.nps ).map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
-      } else {
-        obj.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
-      }
-    }
+    
   }
   
   componentDidMount() {
@@ -109,16 +131,7 @@ class App extends React.Component {
           });
     }
 
-    // const toSortorNotToSort = (obj,clicked) => {
-    //   if ( clicked === true ) {
-    //     obj.sort( (a,b) => a.nps > b.nps ).map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
-    //   } else {
-    //     obj.map(e => <Agent num={e.id} nps={e.nps} busy={e.busy} /> )
-    //   }
-    // }
-
     callThisApi();
-
     setInterval(() => {callThisApi()}, 3000);
 
   }
@@ -144,18 +157,10 @@ class App extends React.Component {
 
             <div id="demo">
 
-              <div id="nn">
-                <h3>Neural Network Routing</h3>
-                {this.toSortorNotToSort(nn)}
-              </div>
-
-              <div id="traditional">
-                <h3>Traditional Routing</h3>
-                {this.toSortorNotToSort(classic)}
-              </div>
+              <ToSort obj={nn} status={clicked} txt="Neural Network Routing" id="nn" />
+              <ToSort obj={classic} status={clicked} txt="Traditional Routing" id="traditional" />              
 
               <div id="statsContainer">
-
                 <div>
                   <Stats 
                     average={nn.averageNps} 
@@ -163,7 +168,6 @@ class App extends React.Component {
                     calls={nn.totalCalls} 
                   />
                 </div>
-
                 <div>
                   <Stats 
                     average={classic.averageNps} 
@@ -171,7 +175,6 @@ class App extends React.Component {
                     calls={classic.totalCalls} 
                   />
                 </div>
-
               </div>
             </div>
         </div>
