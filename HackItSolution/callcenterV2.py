@@ -79,6 +79,21 @@ while True:
         STATE['neural']['agents'].append({ 'id':int(x),'nps':int(call['NNRoutingNPS']),'busy':True  })
         x=x+1
 
+    average_nps_classic_routing = 0
+    average_nps_nn_routing = 0
+
+    for call in routing_collection:
+        average_nps_classic_routing += call['ClassicRoutingNPS']
+
+    average_nps_classic_routing = round(average_nps_classic_routing / len(routing_collection), 2)
+    STATE['classic']['averageNps'] = int(average_nps_classic_routing)
+    for call in routing_collection:
+        average_nps_nn_routing += call['NNRoutingNPS']
+
+    average_nps_nn_routing = round(average_nps_nn_routing / len(routing_collection), 2)
+    STATE['neural']['averageNps'] = int(average_nps_nn_routing)
+
+
     count = collection.count_documents({})
     if count == 0:
         result = collection.insert_one(STATE)
