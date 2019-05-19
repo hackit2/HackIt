@@ -41,64 +41,75 @@ collection = client.hackit2.state
 collection.delete_many({})
 
 I = Inferencing.Inferencing()
-
+total_calls = 0
+classic_total_nps = 0
+neural_total_nps = 0
 while True:
-    STATE = {
-        "classic": {
-            "agents": [],
-            "averageNps": 0,
-            "totalCalls": 0,
-            "totalNps": 0
-        },
-        "neural": {
-            "agents": [],
-            "averageNps": 0,
-            "totalCalls": 0,
-            "totalNps": 0
+    try:
+        total_calls = STATE['classic']['totalCalls']
+        classic_total_nps = STATE['classic']['totalNps']
+        neural_total_nps = STATE['neural']['totalNps']
+        STATE = {
+            "classic": {
+                "agents": [],
+                "averageNps": 0,
+                "totalCalls": 0,
+                "totalNps": 0
+            },
+            "neural": {
+                "agents": [],
+                "averageNps": 0,
+                "totalCalls": 0,
+                "totalNps": 0
+            }
         }
-    }
 
 
-    routing_collection = []
-    sleep(1)
-    for x in range(1, 41):
-        random_routed_call = {}
-        random_routed_call['IVRNode'] = random_ivr_node = random.randint(1, 40)
-        inference_results = I.get_agent_predictions('N' + str(random_ivr_node))
-        # Random Routing
-        random_routed_call['ClassicRoutingAgent'] = random_agent = random.randint(1, 40)
-        random_routed_call['ClassicRoutingNPS'] = inference_results['A' + str(random_agent).zfill(2)]
-        # NN Routing
-        random_routed_call['NNRoutingAgent'] = max(inference_results.items(), key=operator.itemgetter(1))[0]
-        random_routed_call['NNRoutingNPS'] = inference_results[random_routed_call['NNRoutingAgent']]
-        routing_collection.append(random_routed_call)
+        routing_collection = []
+        sleep(1)
+        for x in range(1, 41):
+            random_routed_call = {}
+            random_routed_call['IVRNode'] = random_ivr_node = random.randint(1, 40)
+            inference_results = I.get_agent_predictions('N' + str(random_ivr_node))
+            # Random Routing
+            random_routed_call['ClassicRoutingAgent'] = random_agent = random.randint(1, 40)
+            random_routed_call['ClassicRoutingNPS'] = inference_results['A' + str(random_agent).zfill(2)]
+            # NN Routing
+            random_routed_call['NNRoutingAgent'] = max(inference_results.items(), key=operator.itemgetter(1))[0]
+            random_routed_call['NNRoutingNPS'] = inference_results[random_routed_call['NNRoutingAgent']]
+            routing_collection.append(random_routed_call)
 
-    x=0
-    for call in routing_collection:
-        STATE['classic']['agents'].append({ 'id':int(x),'nps':int(call['ClassicRoutingNPS']),'busy':True })
-        STATE['neural']['agents'].append({ 'id':int(x),'nps':int(call['NNRoutingNPS']),'busy':True  })
-        x=x+1
+        x=0
+        for call in routing_collection:
+            STATE['classic']['agents'].append({ 'id':int(x),'nps':int(call['ClassicRoutingNPS']),'busy':True })
+            STATE['neural']['agents'].append({ 'id':int(x),'nps':int(call['NNRoutingNPS']),'busy':True  })
+            x=x+1
 
-    average_nps_classic_routing = 0
-    average_nps_nn_routing = 0
+        average_nps_classic_routing = 0
+        average_nps_nn_routing = 0
 
-    for call in routing_collection:
-        average_nps_classic_routing += call['ClassicRoutingNPS']
+        for call in routing_collection:
+            average_nps_classic_routing += call['ClassicRoutingNPS']
 
-    average_nps_classic_routing = round(average_nps_classic_routing / len(routing_collection), 2)
-    STATE['classic']['averageNps'] = round(average_nps_classic_routing,2)
-    for call in routing_collection:
-        average_nps_nn_routing += call['NNRoutingNPS']
+        STATE['classic']['totalNps'] = int(classic_total_nps + average_nps_classic_routing)
+        average_nps_classic_routing = round(average_nps_classic_routing / len(routing_collection), 2)
+        STATE['classic']['averageNps'] = round(average_nps_classic_routing,2)
+        for call in routing_collection:
+            average_nps_nn_routing += call['NNRoutingNPS']
 
-    average_nps_nn_routing = round(average_nps_nn_routing / len(routing_collection), 2)
-    STATE['neural']['averageNps'] = round(average_nps_nn_routing,2)
+        STATE['neural']['totalNps'] = int(neural_total_nps + average_nps_nn_routing)
+        average_nps_nn_routing = round(average_nps_nn_routing / len(routing_collection), 2)
+        STATE['neural']['averageNps'] = round(average_nps_nn_routing,2)
 
-
-    count = collection.count_documents({})
-    if count == 0:
-        result = collection.insert_one(STATE)
-        mongo_id = result.inserted_id
-    else:
-        result = collection.replace_one({'_id': mongo_id}, STATE, True)
+        STATE['classic']['totalCalls'] = int(total_calls + 40)
+        STATE['neural']['totalCalls'] = int(total_calls + 40)
+        count = collection.count_documents({})
+        if count == 0:
+            result = collection.insert_one(STATE)
+            mongo_id = result.inserted_id
+        else:
+            result = collection.replace_one({'_id': mongo_id}, STATE, True)
+    except Exception as e:
+        print(e)
 
 
