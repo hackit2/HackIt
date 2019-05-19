@@ -6,7 +6,7 @@
 nginx
 
 # Start the backend process
-cd /var/www && /usr/bin/python3 /var/www/callcenter.py &
+cd /var/www && /usr/bin/python3 /var/www/callcenterV2.py &
 
 # Start the frontend site (React)
 cd /var/www/WebApi/app/templates && npm start &
