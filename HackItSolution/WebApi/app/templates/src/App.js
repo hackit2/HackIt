@@ -118,9 +118,9 @@ class App extends React.Component {
   }
   
   componentDidMount() {
-    
+    let host = window.location.protocol + "//" + window.location.host.replace("localhost:3000","localhost:5000")
     const callThisApi = () => {
-      fetch('http://hackit.cstairouting.com/api/state')
+      fetch(host+'/api/state')
           .then(res => res.json())
           .then(json => {
             this.setState({
