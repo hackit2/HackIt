@@ -108,8 +108,12 @@ while True:
         STATE['classic']['totalCalls'] = int(total_calls + 40)
         STATE['neural']['totalCalls'] = int(total_calls + 40)
 
-        STATE['classic']['percentImprovement'] = round(((STATE['neural']['averageNps'] - STATE['classic']['averageNps'])/ STATE['neural']['averageNps']) *100, 2)
-        STATE['neural']['percentImprovement'] = round(((STATE['neural']['averageNps'] - STATE['classic']['averageNps'])/ STATE['neural']['averageNps']) *100,2)
+        try:
+            STATE['classic']['percentImprovement'] = round(((STATE['neural']['averageNps'] - STATE['classic']['averageNps'])/ STATE['neural']['averageNps']) *100, 2)
+            STATE['neural']['percentImprovement'] = round(((STATE['neural']['averageNps'] - STATE['classic']['averageNps'])/ STATE['neural']['averageNps']) *100,2)
+        except:
+            STATE['classic']['percentImprovement'] = 0
+            STATE['neural']['percentImprovement'] = 0
 
         count = collection.count_documents({})
         if count == 0:
