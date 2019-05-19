@@ -86,12 +86,12 @@ while True:
         average_nps_classic_routing += call['ClassicRoutingNPS']
 
     average_nps_classic_routing = round(average_nps_classic_routing / len(routing_collection), 2)
-    STATE['classic']['averageNps'] = int(average_nps_classic_routing)
+    STATE['classic']['averageNps'] = round(average_nps_classic_routing,2)
     for call in routing_collection:
         average_nps_nn_routing += call['NNRoutingNPS']
 
     average_nps_nn_routing = round(average_nps_nn_routing / len(routing_collection), 2)
-    STATE['neural']['averageNps'] = int(average_nps_nn_routing)
+    STATE['neural']['averageNps'] = round(average_nps_nn_routing,2)
 
 
     count = collection.count_documents({})
