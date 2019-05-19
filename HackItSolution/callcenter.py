@@ -127,18 +127,19 @@ def main():
         if count == 0:
             # Populate agents
             for i in range(1, config.AGENT_COUNT):
-                agent = {
-                    'id': f'A{str(i).zfill(2)}',
-                    'busy': False,
-                    'nps': None,
-                    '_average_nps': 0,
-                    '_total_nps': 0,
-                    '_call_count': 0,
-                    '_call_start': None,
-                    '_call_end': None,
-                    '_avg_handle_time': RAND.randint(2, 7)
-                }
                 for dataset in STATE_NAMES:
+                    agent = {
+                        'id': f'A{str(i).zfill(2)}',
+                        'busy': False,
+                        'nps': None,
+                        '_average_nps': 0,
+                        '_total_nps': 0,
+                        '_call_count': 0,
+                        '_call_start': None,
+                        '_call_end': None,
+                        '_avg_handle_time': RAND.randint(2, 7)
+                    }
+
                     STATE[dataset]['agents'][agent['id']] = agent
 
             result = collection.insert_one(STATE)
