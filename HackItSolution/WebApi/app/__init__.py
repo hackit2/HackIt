@@ -9,7 +9,7 @@ app.register_blueprint(api_module)
 
 @app.errorhandler(404)
 def not_found(error):
-    return render_template('404.html'), 404
+    return '<h1>404 Not Found</h1>', 404
 
 
 @app.route('/')
