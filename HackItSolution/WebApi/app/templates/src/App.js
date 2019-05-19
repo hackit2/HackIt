@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+
 // import {jsonData} from './data.js';
 
 // const apiInvoker = (obj) => {
@@ -19,12 +20,11 @@ class Reset extends React.Component {
   }
 
   resetFn() {
-    console.log('clicked');
-    
-    fetch('http://hackit.cstairouting.com/api/state/reset', {
+    fetch(`${window.location.protocol}//${window.location.host.replace("localhost:3000","localhost:5000")}/api/state/reset`, {
       method: 'POST'
     });
   }
+  
   render() {
     return (
       <button id="resetBtn" onClick={this.resetFn}><i className="fas fa-redo-alt"></i></button>
@@ -59,7 +59,9 @@ const Header = (props) => {
           <h1>{props.title}</h1>
           <h2>{props.subtitle}</h2>
 
+          
           <Reset />
+          
           {/* <Supporting txt="Sort by Score" /> */}
       </header>
   );
@@ -132,7 +134,7 @@ class App extends React.Component {
   
   componentDidMount() {
 
-    let host = window.location.protocol + "//" + window.location.host.replace("localhost:3000","localhost:5000")
+    let host = `${window.location.protocol}//${window.location.host.replace("localhost:3000","localhost:5000")}`
     const callThisApi = () => {
       
       fetch(host+'/api/state')
