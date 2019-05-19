@@ -18,17 +18,16 @@ class Reset extends React.Component {
     super(props)
   }
 
-  resetApi = () => {
-    fetch('http://hackit.cstairouting.com/api/state/reset');
-  }
-
   resetFn() {
     console.log('clicked');
-    //this.resetApi();
+    
+    fetch('http://hackit.cstairouting.com/api/state/reset', {
+      method: 'POST'
+    });
   }
   render() {
     return (
-      <button id="resetBtn" onClick={this.resetFn()}><i className="fas fa-redo-alt"></i></button>
+      <button id="resetBtn" onClick={this.resetFn}><i className="fas fa-redo-alt"></i></button>
     );
   }
 }
@@ -132,16 +131,20 @@ class App extends React.Component {
   }
   
   componentDidMount() {
+
     let host = window.location.protocol + "//" + window.location.host.replace("localhost:3000","localhost:5000")
     const callThisApi = () => {
+      
       fetch(host+'/api/state')
           .then(res => res.json())
           .then(json => {
-            this.setState({
-              isLoaded: true,
-              items: json,
+            if (json !== null) {
+              this.setState({
+                isLoaded: true,
+                items: json,
 
-            })
+              })
+            }
           });
     }
 
@@ -155,7 +158,15 @@ class App extends React.Component {
     var fromJson = {};
     
     if ( !isLoaded ) {
-      return <div>Loading...</div>;
+      return (
+        <div className='container'>
+            <Header title=".Predict()" subtitle="Neural Network vs. Traditional Call Routing" />
+
+            <div id="demo">
+              <div>Loading...</div>;
+            </div>
+        </div>
+      )
     }
 
     else {
