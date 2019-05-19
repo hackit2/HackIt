@@ -27,5 +27,7 @@ def state():
 @cross_origin(support_credentials=True)
 def reset_state():
     client = MongoClient('mongodb://localhost:27017')
+    response = app.make_default_options_response()
+    response.headers.add('Access-Control-Allow-Origin', '*')
     collection = client.hackit2.state
     collection.delete_many({})
