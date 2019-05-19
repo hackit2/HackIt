@@ -163,16 +163,16 @@ class App extends React.Component {
               <div id="statsContainer">
                 <div>
                   <Stats 
-                    average={nn.averageNps} 
-                    total={nn.averageNps * nn.totalCalls} 
-                    calls={nn.totalCalls} 
+                    average={fromJson.nn.averageNps} 
+                    total={fromJson.nn.totalNps} 
+                    calls={fromJson.nn.totalCalls} 
                   />
                 </div>
                 <div>
                   <Stats 
-                    average={classic.averageNps} 
-                    total={classic.averageNps * classic.totalCalls} 
-                    calls={classic.totalCalls} 
+                    average={fromJson.classic.averageNps} 
+                    total={fromJson.classic.totalNps} 
+                    calls={fromJson.classic.totalCalls} 
                   />
                 </div>
               </div>
