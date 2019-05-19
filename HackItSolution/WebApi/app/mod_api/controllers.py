@@ -1,5 +1,5 @@
 from bson.json_util import dumps
-from flask import Blueprint, current_app as app
+from flask import Blueprint, make_response, current_app as app
 from flask_cors import cross_origin
 from pymongo import MongoClient
 
@@ -16,6 +16,7 @@ def index():
 @cross_origin(support_credentials=True)
 def state():
     client = MongoClient('mongodb://localhost:27017')
+    response = app.make_default_options_response()
     response.headers.add('Access-Control-Allow-Origin', '*')
     collection = client.hackit2.state
     retrieved_state = collection.find_one()
